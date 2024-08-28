@@ -4,7 +4,6 @@
         <h2>Test 123 456 789</h2>
         <p>Hej</p>
     </div>
-
 <section id="carousel">
     <?php get_template_part("template-parts/carousel") ?>
 </section>
