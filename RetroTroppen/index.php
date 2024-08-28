@@ -5,4 +5,7 @@
         <p>Hej</p>
     </div>
 
+<section id="carousel">
+    <?php get_template_part("template-parts/carousel") ?>
+</section>
 <?php get_footer() ?>
