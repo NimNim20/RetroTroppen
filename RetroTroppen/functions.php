@@ -6,7 +6,6 @@ function retro_load_resources() {
     //wp_enqueue_script("script", get_template_directory_uri() . "/script.js");
 }
 add_action("wp_enqueue_scripts", "retro_load_resources");
-add_action("wp_enqueue_script")
 
 function portfolio_disable_gutenberg() {
     remove_post_type_support("page", "editor");
