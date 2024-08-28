@@ -7,6 +7,7 @@
             </div>
             <div class="col-10">
                 <h1>Nyeste opslag</h1>
+                <?php get_template_part("template-parts/instagram") ?>
 
                 <?php get_template_part("template-parts/articles") ?>
             </div>
