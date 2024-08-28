@@ -4,6 +4,10 @@ Author: Sharks
 Description: A Wordpress theme for a retro webshop.
 */
 
-
-
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff0000;
+    margin: 0;
+    padding: 0;
+}
 
