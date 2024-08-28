@@ -7,7 +7,7 @@ function retro_load_resources() {
 }
 add_action("wp_enqueue_scripts", "retro_load_resources");
 
-function portfolio_disable_gutenberg() {
+function retro_disable_gutenberg() {
     remove_post_type_support("page", "editor");
 }
-add_action("init", "portfolio_disable_gutenberg");
+add_action("init", "retro_disable_gutenberg");
