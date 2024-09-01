@@ -11,4 +11,16 @@ html {
     padding: 0;
 }
 
+/* instagram start */
 
+.header_instagram{
+    color: #B3CDD8;
+}
+
+.titel_text_instagram{
+    color: red; 
+    text-shadow: rgba(0, 0, 0, 0.645);
+    /* only for now */
+}
+
+/* instagram end */

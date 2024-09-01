@@ -5,7 +5,7 @@ $loop = new WP_Query(array(
 ));
 ?>
 
-<h2 class="">Følg os på Sociale media</h2>
+<h2 class="header_instagram">Følg os på Sociale media</h2>
 
 
 <?php if($loop->have_posts()): ?>
@@ -19,9 +19,9 @@ $loop = new WP_Query(array(
         
         <img src="<?php echo $image; ?>" alt="">
 
-        <div>
-        <?php echo $titel; ?>
-        <?php echo $text; ?>
+        <div class="titel_text_instagram">
+            <div> <?php echo $titel; ?> </div>
+            <div><?php echo $text; ?></div>
         </div>
 
         
