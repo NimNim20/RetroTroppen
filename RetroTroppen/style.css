@@ -121,18 +121,22 @@ input[type=text]{
   }
 
 
+  @media (prefers-reduced-motion: reduce) {
+    .carousel-item {
+      transition: transform 0.5s ease-in-out !important;
+    }
+
 
   @media (prefers-reduced-motion: reduce) {
-    .carousel-control-next, .carousel-control-prev {
-        transition: transform 0.5s ease-in-out !important;
-    }
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active
+   {
+    transition: transform 0.5s ease-in-out !important;
+  }
 }
 
-@media (prefers-reduced-motion: reduce) {
-    .carousel-item {
-        transition: transform 0.5s ease-in-out !important;
-    }
-}
+
 
 
 /* Responsive Styles */
