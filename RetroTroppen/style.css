@@ -120,22 +120,19 @@ input[type=text]{
     transition: transform 0.5s ease-in-out;
   }
 
-
-  @media (prefers-reduced-motion: reduce) {
-    .carousel-item {
-      transition: transform 0.5s ease-in-out !important;
+/* Apply smooth transition for non-reduced motion users */
+@media (prefers-reduced-motion: no-preference) {
+    #carouselExampleIndicators .carousel-control-next, 
+    #carouselExampleIndicators .carousel-control-prev {
+        transition: transform 0.5s ease-in-out !important;
     }
-
-
-  @media (prefers-reduced-motion: reduce) {
-  .carousel-item-next,
-  .carousel-item-prev,
-  .carousel-item.active
-   {
-    transition: transform 0.5s ease-in-out !important;
-  }
 }
 
+/* Override reduce-motion settings */
+#carouselExampleIndicators .carousel-control-next,
+#carouselExampleIndicators .carousel-control-prev {
+    transition: transform 0.5s ease-in-out !important;
+}
 
 
 
