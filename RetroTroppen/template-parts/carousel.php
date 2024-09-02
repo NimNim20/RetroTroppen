@@ -1,6 +1,3 @@
-<?php if($loop->have_posts()): ?>
-    <?php while($loop->have_posts()): $loop->the_post(); ?>
-
     <?php 
     $image = get_field("carimage1");
     $image2 = get_field("carimage2");
@@ -37,6 +34,3 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-
-    <?php endwhile; ?>
-<?php endif; ?>
