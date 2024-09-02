@@ -104,6 +104,10 @@ input[type=text]{
     margin: 4px 0;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    transition: transform 0.5s ease-in-out !important; /* Adjust the timing as needed */
+}
+
 
 .carousel-item {
     transition: transform 0.5s ease-in-out !important;
@@ -119,11 +123,10 @@ input[type=text]{
 
 
   @media (prefers-reduced-motion: reduce) {
-    .carousel-item {
+    .carousel-control-next, .carousel-control-prev {
         transition: transform 0.5s ease-in-out !important;
     }
-  }
-
+}
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar-links {
