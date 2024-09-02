@@ -23,6 +23,11 @@
                     <?php get_template_part("template-parts/carousel") ?>
                 </section>
 
+
+                <section id="instagram">
+                    <?php get_template_part("template-parts/instagram") ?>
+                </section>
+                
                 <?php echo do_shortcode('[cf7form cf7key="contact-form-1"]') ?>
             </div>
         </div>
