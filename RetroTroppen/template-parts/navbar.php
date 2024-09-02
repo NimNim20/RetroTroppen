@@ -26,6 +26,6 @@ if ($isLoggedIn) {
 echo '    </ul>
   </div>
 </nav>';
-?>
 
-<script src="navigation.js"></script>
+wp_enqueue_script("navigation-script", get_template_directory_uri() . "/navigation.js", array(), false, true)
+?>;;
