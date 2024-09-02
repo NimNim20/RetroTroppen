@@ -14,15 +14,8 @@
             <?php get_template_part("template-parts/instagram") ?>
         </section>
 
+        <?php echo do_shortcode('[cf7form cf7key="contact-form-1"]') ?>
+
         <?php endwhile; ?>
     <?php endif; ?>
-
-    <div class="test">
-        <h1>Hello World</h1>
-        <h2>Test 123 456 789</h2>
-        <p>Hej</p>
-    </div>
-
-
-
 <?php get_footer() ?>
