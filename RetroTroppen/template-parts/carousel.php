@@ -4,7 +4,7 @@ $image2 = get_field("carimage2");
 $image3 = get_field("carimage3");
 ?>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
   <ol class="carousel-indicators">
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
     <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
