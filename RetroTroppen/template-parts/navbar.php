@@ -27,5 +27,5 @@ echo '    </ul>
   </div>
 </nav>';
 
-wp_enqueue_script("navigation-script", get_template_directory_uri() . "/navigation.js", array(), false, true)
+// wp_enqueue_script("navigation-script", get_template_directory_uri() . "/navigation.js", array(), false, true)
 ?>
