@@ -1,10 +1,6 @@
 <?php get_header() ?>
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post(); ?>
-        <!-- Scroll to Top Button -->
-            <button id="scrollToTopBtn" class="scroll-to-top-btn" style="display: none;">
-            ↑ Top
-            </button>
 
         <div class="container">
             <div class="row">
