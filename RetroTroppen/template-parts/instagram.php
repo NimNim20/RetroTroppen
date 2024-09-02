@@ -31,4 +31,4 @@ $loop = new WP_Query(array(
        
 
     <?php endwhile; ?>
-<?php 
+<?php endif; ?>
