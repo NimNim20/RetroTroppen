@@ -106,12 +106,12 @@ input[type=text]{
 
 
 .carousel-item {
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.5s ease-in-out !important;
   }
   
   .carousel-item-next,
-  .carousel-item-prev,
-  .carousel-item-active {
+  .carousel-item-prev
+   {
     transition: transform 0.5s ease-in-out;
   }
 
