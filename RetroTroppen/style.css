@@ -30,15 +30,16 @@ html {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #333;
-    padding: 15px;
+    background-color: #0f3947;
+    padding: 15px 0 15px 0;
     color: white;
 }
 
 .navbar .brand-title {
     font-size: 1.5em;
+    justify-content: start;
 }
 
 .navbar-links {
@@ -58,7 +59,7 @@ html {
 }
 
 .navbar-links a {
-    color: white;
+    color: #fbf4d8;
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 5px;
@@ -69,6 +70,27 @@ html {
     background-color: #555;
 }
 
+#search-area{
+    background-color: #0f3947;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text]{
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Toggle Button for Mobile View */
 .toggle-button {
     display: none;
     flex-direction: column;

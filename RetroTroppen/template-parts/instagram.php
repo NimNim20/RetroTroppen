@@ -16,12 +16,14 @@ $loop = new WP_Query(array(
         $image = get_field("image");
         $text = get_field("text");
         ?>
+
+        <h2 class="header_instagram">Følg os på Sociale media</h2>
         
-        <img src="<?php echo $image; ?>" alt="">
+        <img src="<?php echo $image["url"]; ?>" alt="<?php echo $image["alt"]; ?>">
 
         <div class="titel_text_instagram">
-            <div> <?php echo $titel; ?> </div>
-            <div><?php echo $text; ?></div>
+            <h3><?php echo $titel; ?></h3>
+            <p><?php echo $text; ?> </p>
         </div>
 
         
@@ -29,4 +31,4 @@ $loop = new WP_Query(array(
        
 
     <?php endwhile; ?>
-<?php 
+<?php endif; ?>
