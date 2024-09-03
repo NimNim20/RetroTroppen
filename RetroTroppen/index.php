@@ -1,7 +1,7 @@
 <?php get_header() ?>
     <?php if(have_posts()): ?>
         <?php while(have_posts()): the_post(); ?>
-        
+
         <div class="container">
             <div class="row">
                 <section id="navbar">
@@ -23,6 +23,11 @@
                     <?php get_template_part("template-parts/carousel") ?>
                 </section>
 
+
+                <section id="instagram">
+                    <?php get_template_part("template-parts/instagram") ?>
+                </section>
+                
                 <?php echo do_shortcode('[cf7form cf7key="contact-form-1"]') ?>
             </div>
         </div>

@@ -11,16 +11,52 @@ html {
     padding: 0;
 }
 
+.scroll-to-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: opacity 0.3s ease-in-out;
+    z-index: 1000; /* Ensure button is above other content */
+}
+
+.scroll-to-top-btn:hover {
+    background-color: #0056b3;
+}
+
+
+
+
 /* instagram start */
 
 .header_instagram{
     color: #B3CDD8;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .titel_text_instagram{
     color: red; 
     text-shadow: rgba(0, 0, 0, 0.645);
     /* only for now */
+}
+
+.instagram_img{
+    height: 260px;
+    width: 100px;
+}
+
+.instagram_boxes{
+    display: flex;
+    flex-direction: row;
 }
 
 /* instagram end */
@@ -30,15 +66,16 @@ html {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    background-color: #333;
-    padding: 15px;
+    background-color: #0f3947;
+    padding: 15px 0 15px 0;
     color: white;
 }
 
 .navbar .brand-title {
     font-size: 1.5em;
+    justify-content: start;
 }
 
 .navbar-links {
@@ -58,7 +95,7 @@ html {
 }
 
 .navbar-links a {
-    color: white;
+    color: #fbf4d8;
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 5px;
@@ -69,6 +106,27 @@ html {
     background-color: #555;
 }
 
+#search-area{
+    background-color: #0f3947;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar{
+    float: right;
+    padding: 6px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 8px;
+    font-size: 17px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Toggle Button for Mobile View */
 .toggle-button {
     display: none;
     flex-direction: column;
@@ -81,6 +139,24 @@ html {
     background-color: white;
     margin: 4px 0;
 }
+
+.carousel-control-next, .carousel-control-prev {
+    transition: transform 0.5s ease-in-out !important; /* Adjust the timing as needed */
+}
+
+
+.carousel-item {
+    transition: transform 0.5s ease-in-out !important;
+  }
+  
+  .carousel-item-next,
+  .carousel-item-prev,
+  .carousel-item.active
+   {
+    transition: transform 0.5s ease-in-out;
+  }
+
+
 
 /* Responsive Styles */
 @media (max-width: 768px) {
