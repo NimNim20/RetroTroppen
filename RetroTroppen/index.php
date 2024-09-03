@@ -14,7 +14,7 @@
                     $HeroImage = get_field("hero-image");
                     ?>
 
-                    <div class="" style="background-image url(<?php echo $HeroImage["url"]?>);"> 
+                    <div class="" style="background-image: url(<?php echo $HeroImage["url"]?>);"> 
                         <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
                     </div>
                 </div>
