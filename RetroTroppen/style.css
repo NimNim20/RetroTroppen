@@ -59,6 +59,11 @@ html {
     flex-direction: row;
 }
 
+.insta_text{
+    display: flex;
+    align-items: end;
+}
+
 /* instagram end */
 
 
