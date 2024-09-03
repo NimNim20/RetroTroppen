@@ -99,7 +99,7 @@ html {
     align-items: center;
 }
 
-input[type=text]{
+.search-bar{
     float: right;
     padding: 6px;
     border: none;
