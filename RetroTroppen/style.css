@@ -46,13 +46,16 @@ html {
 .titel_text_instagram{
     color: rgb(255, 255, 255); 
     text-shadow: rgba(0, 0, 0, 0.645);
+    padding-top: 10px;
+    padding-left: 10px;
     /* only for now */
 }
 
 .instagram_img{
     height: 360px;
     width: 200px;
-    gap: 10%;
+    display: flex;
+    justify-content:space-evenly;
     /* margin-left: 2%;
     margin-right: 2%; */
 }
