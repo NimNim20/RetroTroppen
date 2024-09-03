@@ -50,6 +50,11 @@ html {
     width: 50px;
 }
 
+.instagram_boxes{
+    display: flex;
+    flex-direction: row;
+}
+
 /* instagram end */
 
 

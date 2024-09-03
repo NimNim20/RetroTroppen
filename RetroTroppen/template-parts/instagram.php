@@ -7,27 +7,28 @@ $loop = new WP_Query(array(
 
 <h2 class="header_instagram">Følg os på Sociale media</h2>
 
+<div class="instagram_boxes">
+    <?php if($loop->have_posts()): ?>
+        <?php while($loop->have_posts()): $loop->the_post() ?>
 
-<?php if($loop->have_posts()): ?>
-    <?php while($loop->have_posts()): $loop->the_post() ?>
+            <?php
+            $titel = get_field("titel");
+            $image = get_field("image");
+            $text = get_field("text");
+            ?>
 
-        <?php
-        $titel = get_field("titel");
-        $image = get_field("image");
-        $text = get_field("text");
-        ?>
+            
+            <img class="instagram_img" src="<?php echo $image["url"]; ?>" alt="<?php echo $image["alt"]; ?>">
 
+            <div class="titel_text_instagram">
+                <h3><?php echo $titel; ?></h3>
+                <p><?php echo $text; ?> </p>
+            </div>
+
+            
+            
         
-        <img class="instagram_img" src="<?php echo $image["url"]; ?>" alt="<?php echo $image["alt"]; ?>">
 
-        <div class="titel_text_instagram">
-            <h3><?php echo $titel; ?></h3>
-            <p><?php echo $text; ?> </p>
-        </div>
-
-        
-        
-       
-
-    <?php endwhile; ?>
-<?php endif; ?>
+        <?php endwhile; ?>
+    <?php endif; ?>
+</div>
