@@ -52,6 +52,9 @@ html {
 .instagram_img{
     height: 360px;
     width: 200px;
+    gap: 85px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .instagram_boxes{
