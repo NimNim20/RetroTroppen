@@ -207,5 +207,11 @@ html {
 /* Hero sektion start */
 
 .frontpage-heading {
-    color: #FBF4D8; 
+    color: #0F3947; 
+    font-family: "Playfair", serif;
 }
+
+.hero-img {
+    max-width: 100%;
+}
+
