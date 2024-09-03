@@ -14,7 +14,7 @@
                     $HeroImage = get_field("hero-image");
                     ?>
 
-                    <h1><?php echo $Heading; ?></h1>
+                    <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
                     <img src="<?php echo $HeroImage; ?>" alt="">
                 </div>
 
