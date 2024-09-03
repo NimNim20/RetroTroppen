@@ -25,11 +25,7 @@ $loop = new WP_Query(array(
                 <p><?php echo $text; ?> </p>
             </div> -->
 
-<<<<<<< HEAD
-            <div class="" style="background-image: url(<?php echo $image["url"] ?>);">
-=======
             <div class="instagram_img" style="background-image: url(<?php echo $image["url"] ?>);">
->>>>>>> 89be11054eb076bcc334c2d9e757e571564b0f60
 
                 <div class="titel_text_instagram">
                     <h3 class="insta_titel"><?php echo $titel; ?></h3>
