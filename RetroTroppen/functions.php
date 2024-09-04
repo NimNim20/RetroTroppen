@@ -17,8 +17,6 @@ function retro_disable_gutenberg() {
 }
 add_action("init", "retro_disable_gutenberg");
 
-add_action("init", "td_clear");
-
 add_filter("wpcf7_autop_or_not", "__return_false");
 
 function pll_register_strings() {
