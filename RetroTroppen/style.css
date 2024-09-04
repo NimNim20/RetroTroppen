@@ -137,6 +137,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #FBF4D8;
+    color: #0f394790;
 }
 
 /* Toggle Button for Mobile View */
@@ -278,6 +280,8 @@ html {
     gap: 20px;
     height: 400px;
     width: 100%;
+    color:#0F3947;
+    font-family: "Montserrat", sans-serif;
 }
 
 .fejlbox_img{
