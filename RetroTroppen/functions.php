@@ -19,12 +19,12 @@ add_action("init", "retro_disable_gutenberg");
 add_filter("wpcf7_autop_or_not", "__return_false");
 
 function pll_register_strings() {
-    pll_register_string("index", "My tasks");
-    pll_register_string("index", "Add new task");
-    pll_register_string("index", "Pomodoro technique");
-    pll_register_string("index", "Time-Boxing technique");
-    pll_register_string("index", "Say no");
-    pll_register_string("index", "Clear completed");
+    pll_register_string("Retrotroppen", "Følg os på Sociale media");
+    pll_register_string("RetroTroppen", "RetroTroppen");
+    pll_register_string("RetroTroppen", "Nyeste opslag");
+    pll_register_string("RetroTroppen", "Læs mere");
+    pll_register_string("RetroTroppen", "Kommentar");
+    pll_register_string("RetroTroppen", "Kommentarne er lukket");
 }
 
 add_action("init", "pll_register_strings");

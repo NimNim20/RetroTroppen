@@ -3,9 +3,9 @@ $loop = new WP_Query(array(
     "post_type" => "instagram-post",
     "posts_per_page" => 4
 ));
-?>
 
-<h2 class="header_instagram">Følg os på Sociale media</h2>
+<h2 class="header_instagram">?>
+<?php pll_e("Følg os på Sociale media")?></h2>
 
 <div class="instagram_boxes">
     <?php if($loop->have_posts()): ?>

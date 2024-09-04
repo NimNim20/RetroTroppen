@@ -21,7 +21,7 @@
                     <p class=""><?php echo $date ?> </p>
                     <p class=""><?php echo $author ?></p>
                     <p class=""><?php echo $excerpt ?></p>
-                    <a href="<?php echo $url ?>">Læs mere</a>
+                    <a href="<?php echo $url ?>"><?php pll_e("Læs mere")?></a>
 
                 </div>
             
