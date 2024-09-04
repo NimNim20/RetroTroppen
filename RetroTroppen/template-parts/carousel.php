@@ -27,14 +27,16 @@
                     $CarouselImage = get_field("carimage");
                     $ArticleTitle = get_field("article_title");
                     $ArticleDescription = get_field("article_description");
+                    $index = 0;
                     ?>
-                    <div class="carousel-item active">
+                    <div class="carousel-item <?php echo ($index == 0) ? "active" : "" ?>">
                       <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
                       <div class="carousel-caption d-none d-md-block">
                         <h5 class=""><?php echo $ArticleTitle ?></h5>
                         <p class=""><?php echo $ArticleDescription ?></p>
                       </div>
                     </div>
+                    <?php $index++; ?>
                   <?php endwhile; ?>
                 <?php endif; ?>
               </div>
