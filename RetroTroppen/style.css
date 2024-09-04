@@ -223,9 +223,9 @@ html {
 
 .hero-text {
     display: flex;
-    justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-top: 80px;
 }
 
 .frontpage-heading {
