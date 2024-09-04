@@ -266,8 +266,9 @@ html {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 400px;
-    width: 400px;
+    width: 700px;
 }
 
 .fejlbox_img{
