@@ -16,3 +16,18 @@ function retro_disable_gutenberg() {
 }
 add_action("init", "retro_disable_gutenberg");
 
+add_action("init", "td_clear");
+
+add_filter("wpcf7_autop_or_not", "__return_false");
+
+function pll_register_strings() {
+    pll_register_string("index", "My tasks");
+    pll_register_string("index", "Add new task");
+    pll_register_string("index", "Pomodoro technique");
+    pll_register_string("index", "Time-Boxing technique");
+    pll_register_string("index", "Say no");
+    pll_register_string("index", "Clear completed");
+}
+
+add_action("init", "pll_register_strings");
+
