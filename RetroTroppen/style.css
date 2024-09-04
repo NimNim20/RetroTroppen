@@ -169,6 +169,21 @@ html {
     transition: transform 0.5s ease-in-out;
   }
 
+.carousel-caption {
+    color:#0F3947;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 0 650px 0;
+    
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+}
+
+.carousel-caption p {
+    font-size: 20px;
+}
+
 
 
 /* Responsive Styles */

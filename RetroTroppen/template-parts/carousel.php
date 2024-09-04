@@ -1,48 +1,46 @@
-<?php 
-$image = get_field("carimage1");
-$image2 = get_field("carimage2");
-$image3 = get_field("carimage3");
-?>
+<?php get_header() ?>
+    <?php if(have_posts()): ?>
+        <?php while(have_posts()): the_post(); ?>
 
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
-  <ol class="carousel-indicators">
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
-    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <!-- First Slide -->
-    <div class="carousel-item active">
-      <img class="d-block w-100" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Tidsløst teaktræ</h5>
-        <p>Moderne interiør skifter med tiden, men nogle designs bevares i årevis</p>
-      </div>
-    </div>
-    <!-- Second Slide -->
-    <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Indret dit hjem med planter</h5>
-        <p>Fuldend dit retrohjem ved at kombinere designmøbler og planter</p>
-      </div>
-    </div>
-    <!-- Third Slide -->
-    <div class="carousel-item">
-      <img class="d-block w-100" src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Foredrag med Søren Vestergaard</h5>
-        <p>Designudvikling op gennem 1900-tallet</p>
-      </div>
-    </div>
-  </div>
+          <?php
+          $CarouselImage = get_field("carimage");
+          $ArticleTitle = get_field("article_title");
+          $ArticleDescription = get_field("article_description");
+          ?>
 
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
+          <div class="container-fluid">
+              <div class="row">
+                  <div class="col-12">
+                      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+                        <ol class="carousel-indicators">
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+                          <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                          <!-- Slide -->
+                          <div class="carousel-item active">
+                            <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5 class=""><?php echo $ArticleTitle ?></h5>
+                              <p class=""><?php echo $ArticleDescription ?></p>
+                            </div>
+                          </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                    </div>
+                </div>
+            </div>
+
+        <?php endwhile; ?>
+    <?php endif; ?>
+<?php get_footer() ?>
