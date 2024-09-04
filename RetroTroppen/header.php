@@ -10,5 +10,5 @@
 
 </head>
 <body <?php body_class() ?>>
-
+<div class="lang"> <?php pll_the_languages() ?>
 <main>
