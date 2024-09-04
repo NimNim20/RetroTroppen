@@ -177,10 +177,11 @@ html {
     padding: 30px;
     border-radius: 20px;
     transition: transform 0.3s ease;
+    cursor: pointer;
 }
 
 .carousel-caption:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
 }
 
 .carousel-caption h5 {
