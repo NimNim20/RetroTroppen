@@ -8,11 +8,13 @@
                   "post_type" => "carousel",
                   "posts_per_page" => -1
                 ));
+                $index = 0;
                 ?>
 
                 <?php if($loop->have_posts()): ?>
                   <?php while($loop->have_posts()): $loop->the_post(); ?>
-                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="<?php echo $index; ?>" class="<?php echo ($index == 0) ? "active" : "" ?>"></li>
+                    <?php $index++; ?>
                   <?php endwhile; ?>
                   <?php wp_reset_postdata(); ?>
                 <?php endif; ?>
