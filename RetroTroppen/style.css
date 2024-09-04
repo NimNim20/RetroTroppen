@@ -218,18 +218,20 @@ html {
     height: 100vh;
     display: flex;
     justify-content: center;
+    flex-direction: row;
+    background-size: cover;
 }
 
 .frontpage-heading {
     color: #0F3947; 
     font-family: "Playfair", serif;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 .core-narrative {
     color: #0F3947; 
     font-family: "Montserrat", sans-serif;
-    font-size: 15px;
+    font-size: 25px;
 }
 
 
