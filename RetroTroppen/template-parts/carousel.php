@@ -21,13 +21,13 @@
               </ol>
               <div class="carousel-inner">
                 <!-- Slide -->
+                <?php $index = 0; ?>
                 <?php if($loop->have_posts()): ?>
                   <?php while($loop->have_posts()): $loop->the_post() ?>
                     <?php
                     $CarouselImage = get_field("carimage");
                     $ArticleTitle = get_field("article_title");
                     $ArticleDescription = get_field("article_description");
-                    $index = 0;
                     ?>
                     <div class="carousel-item <?php echo ($index == 0) ? "active" : "" ?>">
                       <img class="d-block w-100" src="<?php echo esc_url($CarouselImage['url']); ?>" alt="<?php echo esc_attr($CarouselImage['alt']); ?>">
