@@ -13,7 +13,7 @@ echo '
 
     <div class="navbar-links">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li><a href="#">Blog</a></li>
             <li><a href="#">Web Shop</a></li>
             <li><a href="#">Butik</a></li>
