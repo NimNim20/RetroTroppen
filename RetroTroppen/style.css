@@ -170,10 +170,12 @@ html {
   }
 
 .carousel-caption {
-    color:#0F3947;
+    color: #FBF4D8;
     font-family: "Montserrat", sans-serif;
-    padding: 0 0 650px 0;
-    
+    background-color: #0F3947;
+    margin: 0 0 420px 0;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 .carousel-caption h5 {
