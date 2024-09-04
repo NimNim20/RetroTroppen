@@ -216,7 +216,7 @@ html {
 
 .hero-img {
     max-width: 100%;
-    height: calc(100vh - 160px);
+    height: calc(100vh - 170px);
     display: flex;
     background-size: contain;
     justify-content: center;
