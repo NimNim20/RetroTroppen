@@ -14,6 +14,10 @@ $image3 = get_field("carimage3");
     <!-- First Slide -->
     <div class="carousel-item active">
       <img class="d-block w-100" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
     </div>
     <!-- Second Slide -->
     <div class="carousel-item">

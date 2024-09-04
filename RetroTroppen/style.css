@@ -213,12 +213,32 @@ html {
 
 /* Hero sektion start */
 
+.hero-img {
+    max-width: 100%;
+    height: 100vh;
+ 
+}
+
+.hero-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-size: contain;
+    padding-top: -30px
+}
+
 .frontpage-heading {
     color: #0F3947; 
     font-family: "Playfair", serif;
+    font-size: 45px;
+    text-align: center;
 }
 
-.hero-img {
-    max-width: 100%;
+.core-narrative {
+    color: #0F3947; 
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
 }
+
 
