@@ -5,8 +5,8 @@ $isLoggedIn = false;
 echo '
 
 
-      <section id="search-area" class="search-bar">
-        <input type="text" placeholder="Search...">
+      <section id="search-area">
+        <input type="text" placeholder="Search..." class="search-bar">
       </section>
 
   <nav class="navbar">
