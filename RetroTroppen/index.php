@@ -16,8 +16,10 @@
                     ?>
 
                     <div class="hero-img" style="background-image: url(<?php echo $HeroImage["url"]?>);"> 
-                        <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
-                        <p class="core-narrative"><?php echo $CoreNarrative; ?></p>
+                        <div class="hero-text">
+                            <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
+                            <p class="core-narrative"><?php echo $CoreNarrative; ?></p>
+                        </div>
                     </div>
                 </div>
 
