@@ -224,21 +224,19 @@ html {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-top: -30px
+    text-align: center;
 }
 
 .frontpage-heading {
     color: #0F3947; 
     font-family: "Playfair", serif;
     font-size: 45px;
-    text-align: center;
 }
 
 .core-narrative {
     color: #0F3947; 
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
-    text-align: center;
 }
 
 
