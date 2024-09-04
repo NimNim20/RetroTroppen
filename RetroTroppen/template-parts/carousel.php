@@ -15,17 +15,25 @@ $image3 = get_field("carimage3");
     <div class="carousel-item active">
       <img class="d-block w-100" src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>">
       <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
+        <h5>Tidsløst teaktræ</h5>
+        <p>Moderne interiør skifter med tiden, men nogle designs bevares i årevis</p>
       </div>
     </div>
     <!-- Second Slide -->
     <div class="carousel-item">
       <img class="d-block w-100" src="<?php echo esc_url($image2['url']); ?>" alt="<?php echo esc_attr($image2['alt']); ?>">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Indret dit hjem med planter</h5>
+        <p>Fuldend dit retrohjem ved at kombinere designmøbler og planter</p>
+      </div>
     </div>
     <!-- Third Slide -->
     <div class="carousel-item">
       <img class="d-block w-100" src="<?php echo esc_url($image3['url']); ?>" alt="<?php echo esc_attr($image3['alt']); ?>">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Foredrag med Søren Vestergaard</h5>
+        <p>Designudvikling op gennem 1900-tallet</p>
+      </div>
     </div>
   </div>
 
