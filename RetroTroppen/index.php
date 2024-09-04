@@ -12,10 +12,12 @@
                     <?php
                     $Heading = get_field("heading");
                     $HeroImage = get_field("hero-image");
+                    $CoreNarrative = get_field("core-narrative");
                     ?>
 
-                    <div class="" style="background-image: url(<?php echo $HeroImage["url"]?>);"> 
+                    <div class="hero-img" style="background-image: url(<?php echo $HeroImage["url"]?>);"> 
                         <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
+                        <p class="core-narrative"><?php echo $CoreNarrative; ?></p>
                     </div>
                 </div>
 
