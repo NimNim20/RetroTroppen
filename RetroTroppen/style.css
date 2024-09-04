@@ -240,4 +240,15 @@ html {
     font-size: 30px;
 }
 
+/* Hero sektion end */
 
+
+/* 404 start */
+
+.fejlbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* 404 end */
