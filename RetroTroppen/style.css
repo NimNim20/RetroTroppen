@@ -259,4 +259,23 @@ html {
     font-size: 25px;
 }
 
+/* Hero sektion end */
 
+
+/* 404 start */
+
+.fejlbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 700px;
+}
+
+.fejlbox_img{
+    height: 70px;
+    width: 50px;
+}
+
+/* 404 end */
