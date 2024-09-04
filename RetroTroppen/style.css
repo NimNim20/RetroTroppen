@@ -224,7 +224,7 @@ html {
     justify-content: center;
     flex-direction: column;
     background-size: contain;
-    margin-top: -40px;
+    padding-top: -30px
 }
 
 .frontpage-heading {
