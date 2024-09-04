@@ -264,8 +264,14 @@ html {
 
 .fejlbox{
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+.fejlbox_img{
+    height: 70px;
+    width: 50px;
 }
 
 /* 404 end */
