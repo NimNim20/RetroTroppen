@@ -23,7 +23,7 @@
                     </div>
                 </div>
 
-                <section id="instagram">
+                <section id="kategorier">
                     <?php get_template_part("template-parts/kategorier") ?>
                 </section>
 
