@@ -318,9 +318,9 @@ html {
 }
 
 .img_kategorier{
-    height: 190px;
-    
+    height: 110px;
     display: flex;
+    flex-direction: column;
     justify-content:space-evenly;
     /* margin-left: 2%;
     margin-right: 2%; */
