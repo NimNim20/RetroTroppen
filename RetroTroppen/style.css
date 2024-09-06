@@ -325,8 +325,6 @@ html {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    height: 50px;
-    width: auto;
     /* margin-left: 2%;
     margin-right: 2%; */
 }
