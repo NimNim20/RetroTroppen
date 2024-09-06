@@ -318,7 +318,6 @@ html {
 }
 
 .img_kategorier{
-    height: 110px;
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
@@ -333,4 +332,8 @@ html {
     margin-bottom: 50px;
 }
 
+.kategorier{
+    display: flex;
+    flex-direction: column;
+}
 /* kategorier start */

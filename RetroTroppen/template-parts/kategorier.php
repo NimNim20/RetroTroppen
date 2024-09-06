@@ -11,26 +11,19 @@ $loop = new WP_Query(array(
 <div class="kategorier_boxes">
     <?php if($loop->have_posts()): ?>
         <?php while($loop->have_posts()): $loop->the_post() ?>
-
             <?php
             $titel = get_field("titel");
             $image = get_field("image");
             ?>
 
-
-            <div class="img_kategorier">
-                <img src="<?php  echo $image["url"]?>" />
-            </div>
-                    
-
-            <div class="titel_kategorier">
-
+            <div class="kategorier">
+                <div class="img_kategorier">
+                    <img src="<?php  echo $image["url"]?>" />
+                </div>
+                <div class="titel_kategorier">
                     <h4 class="insta_titel"><?php echo $titel; ?></h4>
-
-             </div> 
-
-        
-
+                 </div> 
+             </div>
         <?php endwhile; ?>
     <?php endif; ?>
 </div>
