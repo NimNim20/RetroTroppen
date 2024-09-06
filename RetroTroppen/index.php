@@ -23,6 +23,9 @@
                     </div>
                 </div>
 
+                <section id="instagram">
+                    <?php get_template_part("template-parts/kategorier") ?>
+                </section>
 
                 <section id="carousel">
                     <?php get_template_part("template-parts/carousel") ?>
