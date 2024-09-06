@@ -5,7 +5,7 @@ $loop = new WP_Query(array(
 ));?>
 
 
-<h2 class="header_instagram">
+<h2 class="header_kategorier">
 <?php pll_e("Mest populære kategorier")?></h2>
 
 <div class="kategorier_boxes">
@@ -18,10 +18,12 @@ $loop = new WP_Query(array(
             ?>
 
 
-            <?php echo $img["url"]?>
+            <div class="img_kategorier">
+            <?php  echo $img["url"]?>
+            </div>
                     
 
-            <div class="titel_text_kategorier">
+            <div class="titel_kategorier">
 
                     <h4 class="insta_titel"><?php echo $titel; ?></h4>
 
