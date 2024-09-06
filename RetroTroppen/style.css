@@ -318,7 +318,8 @@ html {
 }
 
 .img_kategorier{
-   
+    height: 190px;
+    
     display: flex;
     justify-content:space-evenly;
     /* margin-left: 2%;
