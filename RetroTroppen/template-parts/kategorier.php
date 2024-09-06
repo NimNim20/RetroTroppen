@@ -19,7 +19,7 @@ $loop = new WP_Query(array(
 
 
             <div class="img_kategorier">
-            <?php  echo $img["url"]?>
+            <?php  echo $image["url"]?>
             </div>
                     
 
