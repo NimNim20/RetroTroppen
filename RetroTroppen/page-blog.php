@@ -4,22 +4,24 @@
                     <?php get_template_part("template-parts/navbar") ?>
 </section>
 
-<!-- <div class="fejlbox">
+<div class="fejlbox">
     <h2>hej</h2>
     <h4> Vi arbejder på siden</h4>
     <img class="fejlbox_img" src="<?php echo get_template_directory_uri() ?>/img/armchair_6633574.png" alt="a broken chair icon 404">
-</div> -->
+</div>
 
 <?php if(have_posts()): ?>
     <?php while(have_posts()): the_post(); ?>
 
 
+        <div class="container_page_blog">
+
+            <div class="blog_box1"></div>
+            <div class="blog_box2"></div>
+
+        </div>
 
         
-    <div class="container_page_blog">
-
-    <div class="blog_box1"></div>
-    <div class="blog_box2"></div>
 
     </div>
 
