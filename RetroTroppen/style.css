@@ -186,10 +186,12 @@ html {
 
 .carousel-caption h5 {
     font-size: 35px;
+    font-family: "Playfair", serif;
 }
 
 .carousel-caption p {
     font-size: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
 
@@ -307,7 +309,7 @@ html {
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Playfair", serif;
 }
 
 .titel_kategorier{
