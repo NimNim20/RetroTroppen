@@ -16,27 +16,19 @@ $loop = new WP_Query(array(
             $titel = get_field("titel");
             $image = get_field("image");
             $text = get_field("text");
+            $smaltext = get_field("smaltext")
             ?>
 
 
-            <div  width="100%"  class="instagram_img" style="background-image: url(<?php echo $image["url"] ?>);">
-
-                <div class="titel_text_instagram">
-                    <h4 class="insta_titel"><?php echo $titel; ?></h4>
-                    <p class="insta_text"><?php echo $text; ?> </p>
-                </div> 
-
+            
+            <div class="card mb-3 col-2">
+                <img src="url(<?php echo $image["url"] ?>)" class="card-img" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title"><?php echo $titel; ?></h5>
+                    <p class="card-text"><?php echo $text; ?></p>
+                    <p class="card-text"><small class="text-body-secondary"><small><?php echo $date; ?></small></p>
+                </div>
             </div>
-
-                        <div class="card text-bg-dark">
-            <img src="..." class="card-img" alt="...">
-            <div class="card-img-overlay">
-                <h5 class="card-title"><?php echo $titel; ?></h5>
-                <p class="card-text"><?php echo $text; ?></p>
-                <p class="card-text"><small>Last updated 3 mins ago</small></p>
-            </div>
-            </div>
-
        
             
         
