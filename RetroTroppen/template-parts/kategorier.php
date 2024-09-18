@@ -24,6 +24,7 @@ $loop = new WP_Query(array(
                     <h4 class="insta_titel"><?php echo $title; ?></h4>
                  </div> 
             </div>
+            
         <?php endwhile; ?>
     <?php endif; ?>
 </div>

@@ -307,16 +307,14 @@ html {
     color: #0F3947;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: 150px 0 50px 0;
     font-family: "Playfair", serif;
 }
 
 .titel_kategorier{
     color: rgb(0, 0, 0); 
     text-shadow: rgba(0, 0, 0, 0.645);
-    padding-top: 10px;
-    padding-left: 5px;
+    margin-top: 10px;
     display: flex;
     justify-content:center;
     height: 50px;
@@ -327,7 +325,6 @@ html {
 .kategorier{
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
 }
 
 .img_kategorier{
