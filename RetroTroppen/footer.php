@@ -11,10 +11,10 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <h5 class="text-uppercase">Vores Links</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="#" class="text-dark">Hjem</a></li>
-            <li><a href="#" class="text-dark">Om os</a></li>
-            <li><a href="#" class="text-dark">Ydelser</a></li>
-            <li><a href="#" class="text-dark">Kontakt</a></li>
+            <li><a href="#" class="text-white">Hjem</a></li>
+            <li><a href="#" class="text-white">Om os</a></li>
+            <li><a href="#" class="text-white">Ydelser</a></li>
+            <li><a href="#" class="text-white">Kontakt</a></li>
           </ul>
         </div>
         </section>
@@ -22,10 +22,10 @@
         <div class="col-lg-3 col-md-6 mb-4">
           <h5 class="text-uppercase">Følg os</h5>
           <ul class="list-unstyled">
-            <li><a href="#" class="text-dark">Facebook</a></li>
-            <li><a href="#" class="text-dark">Twitter</a></li>
-            <li><a href="#" class="text-dark">Instagram</a></li>
-            <li><a href="#" class="text-dark">LinkedIn</a></li>
+            <li><a href="#" class="text-white">Facebook</a></li>
+            <li><a href="#" class="text-white">Twitter</a></li>
+            <li><a href="#" class="text-white">Instagram</a></li>
+            <li><a href="#" class="text-white">LinkedIn</a></li>
      </section>
           </ul>
         </div>
@@ -34,7 +34,7 @@
     <section id="copyRight">
     <div class="text-center p-3 bg-light">
       © 2024 RetroTroppen:
-      <a class="text-dark" href="#">https://wptest.cmsedu.dk/</a>
+      <a class="text-white" href="#">https://wptest.cmsedu.dk/</a>
     </div>
     </section>
   </footer>
