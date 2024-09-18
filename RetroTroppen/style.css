@@ -341,3 +341,51 @@ html {
     flex-direction: column;
 }
 /* kategorier start */
+
+
+    /* page-blog start */
+
+    /* .page_blog_top_tests{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 7%;
+        margin-bottom: 1%;
+        color: #0aaa5e;
+     }
+     
+     .btn-secondary {
+         background-color: #0aaa5e; 
+         border-color:  #043855;
+     }
+     
+     .btn-secondary:hover{
+         background-color: #043855; 
+     }
+     
+     .secondary:focus {
+         background-color: #0aaa5e; 
+     }
+     
+     
+     .dertitle_blog_page{
+         color: #0aaa5e;
+     } */
+#footerRow {
+    background-color: #0f3947;
+    color: white;
+}
+
+.bg-light {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f3947 !important;
+}
+
+
+.links {
+    font-size: 1.5em;
+}
+
