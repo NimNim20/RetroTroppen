@@ -384,6 +384,6 @@ html {
 
 
 .container p-4 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+   display: flex;
+   flex-direction: row;
 }
