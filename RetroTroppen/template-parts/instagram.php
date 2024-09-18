@@ -28,6 +28,15 @@ $loop = new WP_Query(array(
 
             </div>
 
+                        <div class="card text-bg-dark">
+            <img src="..." class="card-img" alt="...">
+            <div class="card-img-overlay">
+                <h5 class="card-title"><?php echo $titel; ?></h5>
+                <p class="card-text"><?php echo $text; ?></p>
+                <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
+            </div>
+
        
             
         
