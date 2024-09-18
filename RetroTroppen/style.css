@@ -341,3 +341,11 @@ html {
     flex-direction: column;
 }
 /* kategorier start */
+
+#footerRow {
+    background-color: #0f3947;
+    color: white;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
