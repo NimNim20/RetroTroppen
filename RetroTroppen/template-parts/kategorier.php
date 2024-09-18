@@ -12,7 +12,7 @@ $loop = new WP_Query(array(
     <?php if($loop->have_posts()): ?>
         <?php while($loop->have_posts()): $loop->the_post() ?>
             <?php
-            $titel = get_field("titel");
+            $title = get_the_title();
             $image = get_field("image");
             ?>
 
@@ -21,7 +21,7 @@ $loop = new WP_Query(array(
                     <img style="  height: 50px; width: 50px;" src="<?php  echo $image["url"]?>" />
                 </div>
                 <div class="titel_kategorier">
-                    <h4 class="insta_titel"><?php echo $titel; ?></h4>
+                    <h4 class="insta_titel"><?php echo $title; ?></h4>
                  </div> 
              </div>
         <?php endwhile; ?>
