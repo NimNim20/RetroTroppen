@@ -10,13 +10,18 @@
     <img class="fejlbox_img" src="<?php echo get_template_directory_uri() ?>/img/armchair_6633574.png" alt="a broken chair icon 404">
 </div> -->
 
-<?php if($loop->have_posts()): ?>
-    <?php while($loop->have_posts()): $loop->the_post() ?>
+<?php if(have_posts()): ?>
+    <?php while(have_posts()): the_post(); ?>
 
 
 
         
+    <div class="container_page_blog">
 
+    <div class="blog_box1"></div>
+    <div class="blog_box2"></div>
+
+    </div>
 
 
 

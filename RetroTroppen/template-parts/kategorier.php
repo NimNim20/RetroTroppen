@@ -23,7 +23,8 @@ $loop = new WP_Query(array(
                 <div class="titel_kategorier">
                     <h4 class="insta_titel"><?php echo $title; ?></h4>
                  </div> 
-             </div>
+            </div>
+            
         <?php endwhile; ?>
     <?php endif; ?>
 </div>
