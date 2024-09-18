@@ -18,7 +18,7 @@ $loop = new WP_Query(array(
 
             <div class="kategorier">
                 <div class="img_kategorier">
-                    <img style="" src="<?php  echo $image["url"]?>" />
+                    <img class="img_radius" style="" src="<?php  echo $image["url"]?>" />
                 </div>
                 <div class="titel_kategorier">
                     <h4 class="insta_titel"><?php echo $title; ?></h4>
