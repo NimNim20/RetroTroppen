@@ -11,7 +11,7 @@ $loop = new WP_Query(array(
 <div class="container">
 <div class="row">
 
-<div class="instagram_boxes">
+
     <?php if($loop->have_posts()): ?>
         <?php while($loop->have_posts()): $loop->the_post() ?>
 
@@ -45,6 +45,6 @@ $loop = new WP_Query(array(
     <?php endif; ?>
 
 
-    </div>
+    
     </div>
 </div>
