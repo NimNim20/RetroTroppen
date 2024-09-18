@@ -299,11 +299,10 @@ html {
     height: 50%;
     font-size: 25px;
 }
-
 /* 404 end */
 
-/* kategorier start */
 
+/* kategorier start */
 .header_kategorier{
     color: #0F3947;
     display: flex;
@@ -325,6 +324,12 @@ html {
     /* only for now */
 }
 
+.kategorier{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 100px 0;
+}
+
 .img_kategorier{
     display: flex;
     flex-direction: column;
@@ -339,12 +344,7 @@ html {
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
-
-.kategorier{
-    display: flex;
-    flex-direction: column;
-}
-/* kategorier start */
+/* kategorier end */
 
 
     /* page-blog start */
