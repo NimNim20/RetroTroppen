@@ -332,6 +332,7 @@ html {
     justify-content:space-evenly;
     width: 200px;
     height: 200px;
+    border-radius: 50px !important;
     /* margin-left: 2%;
     margin-right: 2%; */
 }
