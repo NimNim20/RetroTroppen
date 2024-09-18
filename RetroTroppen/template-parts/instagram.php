@@ -21,7 +21,7 @@ $loop = new WP_Query(array(
 
 
             
-            <div class="card">
+            <div class="card col-2">
                 <img src="url(<?php echo $image["url"] ?>)" class="card-img" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title"><?php echo $titel; ?></h5>
