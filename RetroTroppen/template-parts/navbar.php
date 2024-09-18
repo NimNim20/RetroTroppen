@@ -26,7 +26,7 @@ if ($isLoggedIn) {
   echo '<li><a href="#">Logout</a></li>';
 }   else {
       echo '<li><a href="#">Login</a></li>';
-      echo '<li><a href="register">Register</a></li>';
+      echo '<li><a href="/register">Register</a></li>';
 }
 
 echo '    </ul>
