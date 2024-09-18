@@ -13,10 +13,10 @@
       <div class="col-lg-3 col-md-6 mb-4">
         <h5 class="text-uppercase">Vores Links</h5>
         <ul class="list-unstyled mb-0">
-          <li><a href="#" class="text-white">Hjem</a></li>
-          <li><a href="#" class="text-white">Om os</a></li>
-          <li><a href="#" class="text-white">Ydelser</a></li>
-          <li><a href="#" class="text-white">Kontakt</a></li>
+          <li><a href="#" class="links text-white">Hjem</a></li>
+          <li><a href="#" class="links text-white">Om os</a></li>
+          <li><a href="#" class="links text-white">Ydelser</a></li>
+          <li><a href="#" class="links text-white">Kontakt</a></li>
         </ul>
       </div>
 
@@ -24,10 +24,10 @@
       <div class="col-lg-3 col-md-6 mb-4">
         <h5 class="text-uppercase">Følg os</h5>
         <ul class="list-unstyled">
-          <li><a href="#" class="text-white">Facebook</a></li>
-          <li><a href="#" class="text-white">Twitter</a></li>
-          <li><a href="#" class="text-white">Instagram</a></li>
-          <li><a href="#" class="text-white">LinkedIn</a></li>
+          <li><a href="#" class="links text-white">Facebook</a></li>
+          <li><a href="#" class="links text-white">Twitter</a></li>
+          <li><a href="#" class="links text-white">Instagram</a></li>
+          <li><a href="#" class="links text-white">LinkedIn</a></li>
         </ul>
       </div>
     </div>
