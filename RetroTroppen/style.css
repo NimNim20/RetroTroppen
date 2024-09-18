@@ -302,11 +302,12 @@ html {
 /* kategorier start */
 
 .header_kategorier{
-    color: #B3CDD8;
+    color: #0F3947;
     display: flex;
     justify-content: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 
 .titel_kategorier{
