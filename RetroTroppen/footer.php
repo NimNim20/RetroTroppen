@@ -16,7 +16,7 @@
           <li><a href="#" class="links text-white">Hjem</a></li>
           <li><a href="#" class="links text-white">Om os</a></li>
           <li><a href="#" class="links text-white">Ydelser</a></li>
-          <li><a href="<?php echo site_url('/kontakt')?>" class="links text-white">Kontakt</a></li>
+          <li><a href="<?php echo site_url('/contact')?>" class="links text-white">Kontakt</a></li>
         </ul>
       </div>
 
