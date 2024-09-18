@@ -16,7 +16,12 @@
 
 
         
+    <div class="container_page_blog">
 
+    <div class="blog_box1"></div>
+    <div class="blog_box2"></div>
+
+    </div>
 
 
 

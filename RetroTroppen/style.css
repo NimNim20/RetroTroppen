@@ -349,6 +349,20 @@ html {
 
     /* page-blog start */
 
+
+.container_page_blog{
+    display: flex;
+    flex-direction:column;
+}
+
+.blog_box1{
+    background-color: aqua;
+}
+
+.blog_box2{
+    background-color: rgb(191, 122, 31);
+}
+
     /* .page_blog_top_tests{
         display: flex;
         flex-direction: row;
