@@ -13,23 +13,30 @@ $loop = new WP_Query(array(
         <?php while($loop->have_posts()): $loop->the_post() ?>
 
             <?php
-            $titel = get_field("titel");
+            $titel = get_the_title();
             $image = get_field("image");
             $text = get_field("text");
-            $smaltext = get_field("smaltext")
+            $date = get_field("date")
             ?>
 
 
-            
-            <div class="card col-2">
-                <img src="url(<?php echo $image["url"] ?>)" class="card-img" class="card-img-top" alt="...">
-                <div class="card-body">
-                    <h5 class="card-title"><?php echo $titel; ?></h5>
-                    <p class="card-text"><?php echo $text; ?></p>
-                    <p class="card-text"><small class="text-body-secondary"><small><?php echo $date; ?></small></p>
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card ">
+                            
+                            <img src="url(<?php echo $image["url"] ?>)" class="card-img" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title"><?php echo $titel; ?></h5>
+                                <p class="card-text"><?php echo $text; ?></p>
+                                <p class="card-text"><small class="text-body-secondary"><small><?php echo $date; ?></small></p>
+                            </div>
+                        </div>
+
+                    </div>
+                
                 </div>
             </div>
-       
             
         
 
