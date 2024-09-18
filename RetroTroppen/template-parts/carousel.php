@@ -26,7 +26,7 @@
                   <?php while($loop->have_posts()): $loop->the_post() ?>
                     <?php
                     $CarouselImage = get_field("carimage");
-                    $ArticleTitle = get_field("article_title");
+                    $ArticleTitle = get_the_title();
                     $ArticleDescription = get_field("article_description");
                     ?>
                     <div class="carousel-item <?php echo ($index == 0) ? "active" : "" ?>">

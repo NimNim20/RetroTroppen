@@ -373,3 +373,11 @@ html {
      .dertitle_blog_page{
          color: #0aaa5e;
      } */
+#footerRow {
+    background-color: #0f3947;
+    color: white;
+}
+
+.bg-light {
+    background-color: #0f3947 !important;
+}
