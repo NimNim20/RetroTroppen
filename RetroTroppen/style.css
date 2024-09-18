@@ -330,8 +330,8 @@ html {
     display: flex;
     flex-direction: column;
     justify-content:space-evenly;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     /* margin-left: 2%;
     margin-right: 2%; */
 }
