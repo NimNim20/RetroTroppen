@@ -33,7 +33,7 @@
     </div>
     <section id="copyRight">
     <div class="text-center p-3 bg-light">
-      © 2024 RetroTroppen:
+      <p class="text-white">© 2024 RetroTroppen:</p>
       <a class="text-white" href="#">https://wptest.cmsedu.dk/</a>
     </div>
     </section>
