@@ -381,3 +381,9 @@ html {
 .bg-light {
     background-color: #0f3947 !important;
 }
+
+
+.container p-4 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
