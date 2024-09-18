@@ -8,16 +8,16 @@
           </p>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
-          <h5 class="text-uppercase">Links</h5>
+          <h5 class="text-uppercase">Vores Links</h5>
           <ul class="list-unstyled mb-0">
-            <li><a href="#" class="text-dark">Home</a></li>
-            <li><a href="#" class="text-dark">About</a></li>
-            <li><a href="#" class="text-dark">Services</a></li>
-            <li><a href="#" class="text-dark">Contact</a></li>
+            <li><a href="#" class="text-dark">Hjem</a></li>
+            <li><a href="#" class="text-dark">Om os</a></li>
+            <li><a href="#" class="text-dark">Ydelser</a></li>
+            <li><a href="#" class="text-dark">Kontak</a></li>
           </ul>
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
-          <h5 class="text-uppercase">Follow Us</h5>
+          <h5 class="text-uppercase">Følg os</h5>
           <ul class="list-unstyled">
             <li><a href="#" class="text-dark">Facebook</a></li>
             <li><a href="#" class="text-dark">Twitter</a></li>
