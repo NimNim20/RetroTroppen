@@ -5,7 +5,7 @@
       <div class="col-lg-6 col-md-12 mb-4">
         <h5 class="text-uppercase">Om os</h5>
         <p>
-          Vores værdier er baseret på kvalitet, design og bæredygtighed. Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.
+          Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler</br>.
         </p>
       </div>
 
