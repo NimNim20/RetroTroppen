@@ -17,7 +17,7 @@ echo '
             <li><a href="#">Blog</a></li>
             <li><a href="#">Web Shop</a></li>
             <li><a href="#">Butik</a></li>
-            <li><a href="kontakt">Kontakt</a></li>';
+            <li><a href="/kontakt">Kontakt</a></li>';
 
             
 
