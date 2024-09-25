@@ -11,11 +11,15 @@
     <?php if (have_posts()): ?>
         <?php while (have_posts()): the_post(); ?>
             
-            <header>
-                <nav>
-                    <?php get_template_part("template-parts/navbar"); ?>    
-                </nav>
-            </header>
+        <div class="container">
+            <div class="row">
+                <header>
+                    <nav>
+                        <?php get_template_part("template-parts/navbar"); ?>    
+                    </nav>
+                </header>
+            </div>
+        </div>
 
         <?php endwhile; ?>
     <?php endif; ?>
