@@ -394,5 +394,9 @@ html {
 
 .links {
     font-size: 1em;
+    transition: 0.3s ease;
 }
 
+.links:hover {
+    color: #0aaa5e;
+}
