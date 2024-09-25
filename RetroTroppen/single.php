@@ -12,11 +12,11 @@
             $hero = get_field("hero-image");
             ?>
 
-            <img src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
+            <img class="heroimg_blog" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
             <h1><?php echo $title ?></h1>
             <p><?php echo $date ?> </p></p>
             <?php echo $author ?></p>
-            <?php echo $content ?>
+            <div class="postcontent"><?php echo $content ?></div>
 
 
             <span>Kategorier:</span>
