@@ -43,7 +43,7 @@
 
             <article>
 
-                <img class="heroimg_blog" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
+                <img class="heroimg_blogpost" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
                 <h1><?php echo $title ?></h1>
                 <p><?php echo $date ?> </p></p>
                 <?php echo $author ?></p>
