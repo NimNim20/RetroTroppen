@@ -405,7 +405,7 @@ html {
 }
 
 .reqTxt{
-    color: #13aa5f;
+    color: #0f3947;
     font-weight: bold;
     font-size: 1.5rem;
     margin-bottom: 10px;
@@ -436,7 +436,7 @@ html {
 }
 
 .wpcf7-form-control.wpcf7-submit{
-    background-color: #13aa5f;
+    background-color: #0f3947;
     color: white;
     border: none;
     border-radius: 5px;
@@ -451,7 +451,7 @@ html {
 }
 
 #dropdwn{
-    border: 2.5px solid #13aa5f;
+    border: 2.5px solid #0f3947;
     border-radius: 5px;
     width: 300%;
 }
@@ -469,12 +469,12 @@ html {
 }
 
 #fornavn, #efternavn {
-    border: 2.5px solid #13aa5f;
+    border: 2.5px solid #0f3947;
     border-radius: 5px;
 }
 
 #email, #ordnummer, #tele{
-    border: 2.5px solid #13aa5f;
+    border: 2.5px solid #0f3947;
     border-radius: 5px;
 }
 
@@ -491,7 +491,7 @@ html {
 }
 
 #by, #vejnum, #besked, #zip{
-    border: 2.5px solid #13aa5f;
+    border: 2.5px solid #0f3947;
     border-radius: 5px;
 }
 
