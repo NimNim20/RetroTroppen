@@ -313,8 +313,7 @@ html {
 }
 
 .titel_kategorier{
-    color: rgb(0, 0, 0); 
-    text-shadow: rgba(0, 0, 0, 0.645);
+    color: #0F3947;
     margin-top: 10px;
     display: flex;
     justify-content:center;
