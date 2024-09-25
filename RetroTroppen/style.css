@@ -456,11 +456,6 @@ html {
     width: 300%;
 }
 
-#fornavn, #efternavn {
-    border: 2.5px solid #13aa5f;
-    border-radius: 5px;
-}
-
 .name-container{
     display: flex;
     gap: 30px;
@@ -471,6 +466,11 @@ html {
     flex: 1;
     padding: 10px;
     min-width: 0;
+}
+
+#fornavn, #efternavn {
+    border: 2.5px solid #13aa5f;
+    border-radius: 5px;
 }
 
 .city-info{
