@@ -5,6 +5,7 @@
 
             <?php
             $categories = get_the_category();
+            $tags = get_the_tag();
             $title = get_the_title();
             $date = get_the_date();
             $author = get_the_author();
@@ -27,15 +28,17 @@
     <div class="row">
         <div class="col-3">
             <ul>
-                <li>ALLE</li>
-                <li>EVENTS</li>
+                <ul>ALLE</ul>
+                <ul>EVENTS</ul>
                 <li>foredrag</li>
                 <li>åbent hus</li>
                 <li>særudstillinger</li>
-                <li>ARTILER</li>
+                <ul>ARTILER</ul>
                 <li>DIY</li>
                 <li>Indretning</li>
                 <li>Historik</li>
+
+                <!-- nær den er dynamisk så kun en ul og il -->
 
             </ul>
         </div>
@@ -44,11 +47,6 @@
             <article>
 
                 <img class="heroimg_blogpost" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
-                <h1><?php echo $title ?></h1>
-                <p><?php echo $date ?> </p></p>
-                <?php echo $author ?></p>
-                <div class="postcontent"><?php echo $content ?></div>
-
 
                 <span>Kategorier:</span>
                 <?php if($categories): ?>
@@ -56,6 +54,19 @@
                         <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
                     <?php endforeach; ?>
                 <?php endif; ?>
+
+                <span>Tags:</span>
+                <?php if($tags): ?>
+                    <?php foreach($tags as $tag): ?>
+                        <a href="<?php echo get_category_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
+
+                <h1><?php echo $title ?></h1>
+                <p><?php echo $date ?> </p></p>
+                <?php echo $author ?></p>
+                <div class="postcontent"><?php echo $content ?></div>
 
             </article>
 
