@@ -8,6 +8,18 @@
     <title><?php pll_e("RetroTroppen")?></title>
     <?php wp_head() ?>
 
+    <?php if (have_posts()): ?>
+        <?php while (have_posts()): the_post(); ?>
+            
+            <header>
+                <nav>
+                    <?php get_template_part("template-parts/navbar"); ?>    
+                </nav>
+            </header>
+
+        <?php endwhile; ?>
+    <?php endif; ?>
+
 
 </head>
 <body <?php body_class() ?>>
