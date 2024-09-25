@@ -435,6 +435,10 @@ html {
     height: 50px;
 }
 
+.wpcf7-form-control.wpcf7-select option{
+    background-colour: #0f3947;
+}
+
 .wpcf7-form-control.wpcf7-textarea{
     width: 230%;
 }
