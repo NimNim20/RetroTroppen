@@ -3,7 +3,7 @@
     <div class="row" id="footerRow">
       
       <article class="col-lg-6 col-md-12 mb-4">
-        <h2 class="text-uppercase">Om os</h2>
+        <h1 class="text-uppercase">Retro Troppen</h1>
         <p>
           Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>
         </p>
