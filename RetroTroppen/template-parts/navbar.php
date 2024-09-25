@@ -1,38 +1,30 @@
-<?php 
-// Method to check if a user is logged in
-$isLoggedIn = false;
-
-echo '
-
-
-      <section id="search-area">
-        <input type="text" placeholder="Search..." class="search-bar">
-      </section>
-
-  <nav class="navbar">
-
-    <div class="navbar-links">
-        <ul>
-            <li><a href="/">Forside</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Web Shop</a></li>
-            <li><a href="#">Butik</a></li>
-            <li><a href="/kontakt">Kontakt</a></li>';
-
-            
-
-if ($isLoggedIn) {
-  echo '<li><a href="#">Profile</a></li>';
-  echo '<li><a href="#">Logout</a></li>';
-}   else {
-      echo '<li><a href="#">Login</a></li>';
-      echo '<li><a href="/register">Register</a></li>';
-}
-
-echo '    </ul>
-
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Logo</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">Forside</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Web Shop</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Butik</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="<?php echo site_url('/contact')?>">Kontakt</a>
+        </li>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Søg..." aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Søg</button>
+      </form>
+    </div>
   </div>
-</nav>';
-?>
-
-<script src="navigation.js"></script>
+</nav>
