@@ -437,6 +437,11 @@ html {
 
 .wpcf7-form-control.wpcf7-select option{
     background-colour: #0f3947;
+    transition: background-color 0.3s ease;
+}
+
+.wpcf7-form-control.wpcf7-select option:hover{
+    background-color: #0b7d3e;
 }
 
 .wpcf7-form-control.wpcf7-textarea{
