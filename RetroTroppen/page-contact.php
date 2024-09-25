@@ -15,7 +15,7 @@
         <div class="hero-img-container">
           <img src="<?php echo $heroImage['url']; ?>" alt="Hero Image" class="hero-img">
           <div class="hero-text-contact">
-            <h1><?php echo $heroTxt; ?></h1>
+            <h1></h1>
           </div>
         </div>
        </section>
