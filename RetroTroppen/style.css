@@ -246,6 +246,7 @@ html {
     display: flex;
     background-size: contain;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 
 .hero-text {

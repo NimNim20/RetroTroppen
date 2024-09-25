@@ -14,28 +14,23 @@
                 ?>
         
                 <article class="col-6">
-                    <!-- Hero Image Section -->
                     <figure>
                         <img src="<?php echo esc_url($hero['url']); ?>" alt="<?php echo esc_attr($hero['alt']); ?>">
                     </figure>
 
-                    <!-- Post Header Section -->
                     <header>
                         <h2><?php echo esc_html($title); ?></h2>
                         <p class="post-date"><?php echo esc_html($date); ?></p>
                         <p class="post-author"><?php echo esc_html($author); ?></p>
                     </header>
 
-                    <!-- Post Excerpt Section -->
                     <p class="post-excerpt"><?php echo esc_html($excerpt); ?></p>
 
-                    <!-- Read More Link -->
                     <a href="<?php echo esc_url($url); ?>"><?php pll_e("Læs mere"); ?></a>
                 </article>
             
             <?php endwhile; ?>
 
-            <!-- Pagination Links -->
             <nav class="pagination">
                 <?php echo paginate_links(); ?>
             </nav>
