@@ -12,24 +12,62 @@
             $hero = get_field("hero-image");
             ?>
 
-            <img class="heroimg_blog" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
-            <h1><?php echo $title ?></h1>
-            <p><?php echo $date ?> </p></p>
-            <?php echo $author ?></p>
-            <div class="postcontent"><?php echo $content ?></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <div class="topfild_page_blog">
+        
+                <h3>tilbage</h3>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-3">
+            <ul>
+                <li>ALLE</li>
+                <li>EVENTS</li>
+                <li>foredrag</li>
+                <li>åbent hus</li>
+                <li>særudstillinger</li>
+                <li>ARTILER</li>
+                <li>DIY</li>
+                <li>Indretning</li>
+                <li>Historik</li>
+
+            </ul>
+        </div>
+        <div class="col-9">
+
+            <article>
+
+                <img class="heroimg_blog" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
+                <h1><?php echo $title ?></h1>
+                <p><?php echo $date ?> </p></p>
+                <?php echo $author ?></p>
+                <div class="postcontent"><?php echo $content ?></div>
 
 
-            <span>Kategorier:</span>
-            <?php if($categories): ?>
-                <?php foreach($categories as $category): ?>
-                    <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
-                <?php endforeach; ?>
-            <?php endif; ?>
+                <span>Kategorier:</span>
+                <?php if($categories): ?>
+                    <?php foreach($categories as $category): ?>
+                        <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
+                    <?php endforeach; ?>
+                <?php endif; ?>
+
+            </article>
 
 
             <?php if(comments_open() || get_comments_number()): ?>
-                <?php comments_template(); ?>
+            <?php comments_template(); ?>
             <?php endif; ?>
+
+
+        </div>
+    </div>
+            
 
         
         <?php endwhile; ?>
