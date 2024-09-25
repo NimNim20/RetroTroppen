@@ -5,13 +5,6 @@
     
     <div class="container">
         <div class="row">
-            <!-- Navigation Section -->
-            <header>
-                <nav id="navbar">
-                    <?php get_template_part("template-parts/navbar"); ?>
-                </nav>
-            </header>
-
             <!-- Main Content Section -->
             <main>
                 <article class="col-12">

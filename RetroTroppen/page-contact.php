@@ -3,12 +3,6 @@
 <?php if(have_posts()): ?>
   <?php while(have_posts()): the_post(); ?>
 
-    <header>
-        <nav id="navbar">
-            <?php get_template_part("template-parts/navbar"); ?>
-        </nav>
-    </header>
-
       <?php
         $welcomeTxt = get_field("welcome");
         $heroImage = get_field("hero_img");

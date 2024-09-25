@@ -1,8 +1,6 @@
 <?php get_header() ?>
 
-<section id="navbar">
-                    <?php get_template_part("template-parts/navbar") ?>
-</section>
+
 
 <div class="fejlbox">
     <h2>hej</h2>

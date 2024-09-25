@@ -1,9 +1,5 @@
 <?php get_header() ?>
 
-<section id="navbar">
-                    <?php get_template_part("template-parts/navbar") ?>
-</section>
-
 <div class="fejlbox">
     <h2>404</h2>
     <h4>Der er sket en fejl. Vi arbejder på en løsning...</h4>
