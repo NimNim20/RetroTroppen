@@ -6,7 +6,7 @@ $loop = new WP_Query(array(
 
 
 <h2 class="header_kategorier">
-<?php pll_e("Populære retro kategorier")?></h2>
+<?php pll_e("Populært Retro")?></h2>
 
 <div class="kategorier_boxes">
     <?php if($loop->have_posts()): ?>
