@@ -1,45 +1,53 @@
-<?php get_header() ?>
-    <?php if(have_posts()): ?>
-        <?php while(have_posts()): the_post(); ?>
+<?php get_header(); ?>
 
-        <div class="container">
-            <div class="row">
-                <section id="navbar">
-                    <?php get_template_part("template-parts/navbar") ?>
-                </section>
+<?php if (have_posts()): ?>
+    <?php while (have_posts()): the_post(); ?>
+    
+    <div class="container">
+        <div class="row">
+            <!-- Navigation Section -->
+            <header>
+                <nav id="navbar">
+                    <?php get_template_part("template-parts/navbar"); ?>
+                </nav>
+            </header>
 
-                <div class="col-12">
+            <!-- Main Content Section -->
+            <main>
+                <article class="col-12">
                     <?php
                     $Heading = get_field("heading");
                     $HeroImage = get_field("hero-image");
                     $CoreNarrative = get_field("core-narrative");
                     ?>
 
-                    <div class="hero-img" style="background-image: url(<?php echo $HeroImage["url"]?>);"> 
+                    <section class="hero-img" style="background-image: url(<?php echo $HeroImage['url']; ?>);">
                         <div class="hero-text">
-                            <h1 class="frontpage-heading"><?php echo $Heading; ?></h1>
-                            <p class="core-narrative"><?php echo $CoreNarrative; ?></p>
+                            <h1 class="frontpage-heading"><?php echo esc_html($Heading); ?></h1>
+                            <p class="core-narrative"><?php echo esc_html($CoreNarrative); ?></p>
                         </div>
-                    </div>
-                </div>
+                    </section>
+                </article>
 
+                <!-- Categories Section -->
                 <section id="kategorier">
-                    <?php get_template_part("template-parts/kategorier") ?>
+                    <?php get_template_part("template-parts/kategorier"); ?>
                 </section>
 
+                <!-- Carousel Section -->
                 <section id="carousel">
-                    <?php get_template_part("template-parts/carousel") ?>
+                    <?php get_template_part("template-parts/carousel"); ?>
                 </section>
 
-
+                <!-- Instagram Feed Section -->
                 <section id="instagram">
-                    <?php get_template_part("template-parts/instagram") ?>
+                    <?php get_template_part("template-parts/instagram"); ?>
                 </section>
-                
-               
-            </div>
+            </main>
         </div>
+    </div>
 
-        <?php endwhile; ?>
-    <?php endif; ?>
-<?php get_footer() ?>
+    <?php endwhile; ?>
+<?php endif; ?>
+
+<?php get_footer(); ?>
