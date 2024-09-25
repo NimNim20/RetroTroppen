@@ -5,7 +5,7 @@
 
       <?php
         $welcomeTxt = get_field("welcome");
-        // $heroImage = get_field("hero_img");
+        $heroImage = get_field("hero_img");
         // $heroTxt = get_field("hero_txt");
         $reqTxt = get_field("required_txt");
       ?>
