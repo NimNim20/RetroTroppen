@@ -11,13 +11,6 @@
 </div>
 
 
-        <div class="container_page_blog">
-
-        <div class="blog_box1"></div>
-        <div class="blog_box2"></div>
-
-        </div>
-
 <?php if(have_posts()): ?>
     <?php while(have_posts()): the_post(); ?>
 
@@ -34,21 +27,7 @@
 
     <!-- <div class="container">
 
-        <div class="topbox">
-            
-        </div>
-
-        <div class="blog_kategorier">
-
-        </div>
-
-        <div class="fornt_blog">
-
-             <div class="page_blog_top_tests">
-                                
-                                <div class="undertitle_blog_page">
-                                    <h2><?php echo $undertitle; ?></h2> 
-                                </div>
+       >
 
                                 <div class="dropdown">
                                     <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -59,22 +38,6 @@
                                             <li><a class="dropdown-item" href="#"><?php pll_e("nyeste")?></a></li>
                                             <li><a class="dropdown-item" href="#"><?php pll_e("ældste")?></a></li>
                                         </ul>
-                                </div>
-            </div>
-
-            <div class="card col-6" >
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                     <h5 class="card-title">Card title</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-            </div>
-
-        </div>
-
-
-
 
     </div> -->
 
