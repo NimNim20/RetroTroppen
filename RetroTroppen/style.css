@@ -473,6 +473,11 @@ html {
     border-radius: 5px;
 }
 
+#email, #ordnummer, #tele{
+    border: 2.5px solid #13aa5f;
+    border-radius: 5px;
+}
+
 .city-info{
     display: flex;
     gap: 30px;
