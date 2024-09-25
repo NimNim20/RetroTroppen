@@ -6,7 +6,7 @@ $loop = new WP_Query(array(
 
 
 <h2 class="header_kategorier">
-<?php pll_e("Mest populære kategorier")?></h2>
+<?php pll_e("Populært Retro")?></h2>
 
 <div class="kategorier_boxes">
     <?php if($loop->have_posts()): ?>
@@ -22,7 +22,7 @@ $loop = new WP_Query(array(
                 </div>
                 <div class="titel_kategorier">
                     <h4 class="insta_titel"><?php echo $title; ?></h4>
-                 </div> 
+                </div> 
             </div>
 
         <?php endwhile; ?>

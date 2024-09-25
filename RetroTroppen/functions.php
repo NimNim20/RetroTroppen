@@ -20,12 +20,13 @@ add_action("init", "retro_disable_gutenberg");
 add_filter("wpcf7_autop_or_not", "__return_false");
 
 function pll_register_strings() {
-    pll_register_string("Retrotroppen", "Følg os på Sociale media");
-    pll_register_string("RetroTroppen", "RetroTroppen");
-    pll_register_string("RetroTroppen", "Nyeste opslag");
+    pll_register_string("index", "Følg os på Sociale media");
+    pll_register_string("index", "RetroTroppen");
+    pll_register_string("home", "Nyeste opslag");
     pll_register_string("RetroTroppen", "Læs mere");
-    pll_register_string("RetroTroppen", "Kommentar");
-    pll_register_string("RetroTroppen", "Kommentarne er lukket");
+    pll_register_string("single", "Kommentar");
+    pll_register_string("single", "Kommentarne er lukket");
+    pll_register_string("index", "Populært Retro");
 }
 
 add_action("init", "pll_register_strings");
