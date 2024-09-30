@@ -83,7 +83,7 @@ html {
 
 /* Navigation bar start */
 
-.navbar {
+.navbar !important{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -113,7 +113,7 @@ html {
     margin-left: 20px;
 }
 
-.nav-link a {
+.nav-link a !important {
     color: var(--light-color);
     text-decoration: none;
     padding: 8px 15px;
@@ -121,11 +121,11 @@ html {
     transition: background-color 0.3s;
 }
 
-.nav-link a:hover {
+.nav-link a:hover !important {
     background-color: var(--light-third-color);
 }
 
-#search-area{
+#search-area !important{
     background-color: var(--light-color);
     display: flex;
     justify-content: center;
@@ -133,7 +133,7 @@ html {
     padding-top: 15px;
 }
 
-.search{
+.search !important{
     float: right;
     padding: 6px;
     border: none;
