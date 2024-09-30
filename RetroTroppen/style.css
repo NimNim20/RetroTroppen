@@ -145,7 +145,7 @@ html {
     justify-content: center;
     align-items: center;
     background-color: var(--light-color);
-    color: var(--dark-color);
+    /* color: var(--dark-color); */
 }
 
 /* Toggle Button for Mobile View */
