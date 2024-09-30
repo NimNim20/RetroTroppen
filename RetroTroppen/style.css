@@ -4,6 +4,14 @@ Author: Sharks
 Description: A Wordpress theme for a retro webshop.
 */
 
+:root{
+    --light-color: #fbf4d8;
+    --light-second-color: #bca47c;
+    --light-third-color: #b3cdd8;
+    --dark-color: #0f3947;
+    /* --quinary-color: #f4f4f4; */
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -79,7 +87,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0f3947;
+    background-color: var(--dark-color);
     padding: 15px 0 15px 0;
     color: white;
 }
@@ -89,43 +97,43 @@ html {
     justify-content: start;
 }
 
-.navbar-links {
+.nav-link {
     display: flex;
     align-items: center;
 }
 
-.navbar-links ul {
+.navbar-link ul {
     list-style: none;
     display: flex;
     margin: 0;
     padding: 0;
 }
 
-.navbar-links li {
+.navbar-link li {
     margin-left: 20px;
 }
 
-.navbar-links a {
-    color: #fbf4d8;
+.nav-link a {
+    color: var(--light-color);
     text-decoration: none;
     padding: 8px 15px;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
-.navbar-links a:hover {
-    background-color: #555;
+.nav-link a:hover {
+    background-color: var(--light-third-color);
 }
 
 #search-area{
-    background-color: #0f3947;
+    background-color: var(--light-color);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 15px;
 }
 
-.search-bar{
+.search{
     float: right;
     padding: 6px;
     border: none;
@@ -136,8 +144,8 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #FBF4D8;
-    color: #0F3947;
+    background-color: var(--light-color);
+    color: var(--dark-color);
 }
 
 /* Toggle Button for Mobile View */
@@ -153,6 +161,8 @@ html {
     background-color: white;
     margin: 4px 0;
 }
+
+/* Navigation bar end */
 
 .carousel-control-next, .carousel-control-prev {
     transition: transform 0.5s ease-in-out !important; /* Adjust the timing as needed */
