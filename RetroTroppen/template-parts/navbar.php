@@ -10,7 +10,7 @@
           <a class="nav-link active" aria-current="page" href="/">Forside</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Blog</a>
+          <a class="nav-link" href="<?php echo site_url('/blog')?>">Blog</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Web Shop</a>

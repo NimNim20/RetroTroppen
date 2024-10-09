@@ -14,7 +14,7 @@
         <ul class="list-unstyled mb-0">
           <li><a href="#" class="links text-white">Hjem</a></li>
           <li><a href="#" class="links text-white">Om os</a></li>
-          <li><a href="#" class="links text-white">Ydelser</a></li>
+          <li><a href="<?php echo site_url('/blog')?>" class="links text-white">Blog</a></li>
           <li><a href="<?php echo site_url('/contact')?>" class="links text-white">Kontakt</a></li>
         </ul>
       </nav>
