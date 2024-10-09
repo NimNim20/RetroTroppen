@@ -9,7 +9,7 @@
             
             <!-- Search bar in the center -->
             <form class="d-flex mx-auto navbar-search">
-                <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2 mw-100" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Søg</button>
             </form>
             
@@ -43,9 +43,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kontakt</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Søg</a>
                 </li>
             </ul>
         </div>
