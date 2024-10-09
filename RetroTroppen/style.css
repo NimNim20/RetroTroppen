@@ -37,8 +37,6 @@ html {
 }
 
 
-
-
 /* instagram start */
 
 .header_instagram{
@@ -396,8 +394,18 @@ html {
      } */
 #footerRow {
     background-color: #0f3947;
-    color: white;
+    color: #FBF4D8;
 }
+
+.footer_headings {
+    font-family: "Playfair", serif;
+}
+
+.footer_paragraph {
+    font-family: "Montserrat", sans-serif;
+}
+
+
 
 .bg-light {
     display: flex;

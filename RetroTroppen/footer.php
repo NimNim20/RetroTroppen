@@ -3,14 +3,14 @@
     <div class="row" id="footerRow">
       
       <article class="col-lg-6 col-md-12 mb-4">
-        <h1 class="text-uppercase">Retro Troppen</h1>
-        <p>
+        <h1 class="footer_headings">Retro Troppen</h1>
+        <p class="footer_paragraph">
           Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>
         </p>
       </article>
 
       <nav class="col-lg-3 col-md-6 mb-4" aria-label="Footer navigation">
-        <h2 class="text-uppercase">Vores Links</h2>
+        <h2 class="footer_headings">Vores Links</h2>
         <ul class="list-unstyled mb-0">
           <li><a href="#" class="links text-white">Hjem</a></li>
           <li><a href="#" class="links text-white">Om os</a></li>
@@ -20,7 +20,7 @@
       </nav>
 
       <section class="col-lg-3 col-md-6 mb-4">
-        <h2 class="text-uppercase">Følg os</h2>
+        <h2 class="footer_headings">Følg os</h2>
         <ul class="list-unstyled">
           <li><a href="#" class="links text-white">Facebook</a></li>
           <li><a href="#" class="links text-white">Twitter</a></li>
