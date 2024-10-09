@@ -7,9 +7,6 @@
     
     <title><?php pll_e("RetroTroppen")?></title>
     <?php wp_head() ?>
-
-    <?php if (have_posts()): ?>
-        <?php while (have_posts()): the_post(); ?>
             
         <div class="container">
             <div class="row">
@@ -20,9 +17,6 @@
                 </header>
             </div>
         </div>
-
-        <?php endwhile; ?>
-    <?php endif; ?>
 
 
 </head>
