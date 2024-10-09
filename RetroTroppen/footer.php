@@ -11,7 +11,7 @@
 
       <nav class="col-lg-3 col-md-6 mb-4" aria-label="Footer navigation">
         <h2 class="footer_headings">Vores Links</h2>
-        <ul class="list-unstyled mb-0">
+        <ul class="list-unstyled mb-0 footer-list">
           <li><a href="#" class="links text-white">Hjem</a></li>
           <li><a href="#" class="links text-white">Om os</a></li>
           <li><a href="<?php echo site_url('/blog')?>" class="links text-white">Blog</a></li>
@@ -21,7 +21,7 @@
 
       <section class="col-lg-3 col-md-6 mb-4">
         <h2 class="footer_headings">Følg os</h2>
-        <ul class="list-unstyled">
+        <ul class="list-unstyled footer-list">
           <li><a href="#" class="links text-white">Facebook</a></li>
           <li><a href="#" class="links text-white">Twitter</a></li>
           <li><a href="#" class="links text-white">Instagram</a></li>
