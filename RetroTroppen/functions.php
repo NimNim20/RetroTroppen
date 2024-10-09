@@ -31,3 +31,10 @@ function pll_register_strings() {
 
 add_action("init", "pll_register_strings");
 
+
+
+function shop_enable_woocommerce() {
+    add_theme_support("woocommerce");
+}
+
+add_action("after_setup_theme", "shop_enable_woocommerce");
