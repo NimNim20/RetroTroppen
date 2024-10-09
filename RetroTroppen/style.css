@@ -345,17 +345,17 @@ html {
     justify-content:space-evenly;
     width: 200px;
     height: 200px;
+    transition: transform 0.3s ease;
     /* margin-left: 2%;
     margin-right: 2%; */
 }
 
-.img_radius {
-    border-radius: 50% !important;
-    transition: transform 0.3s ease;
+.img_kategorier:hover {
+    transform: scale(1.1);
 }
 
-.img_radius:hover {
-    transform: scale(1.1);
+.img_radius {
+    border-radius: 50% !important;
 }
 
 
