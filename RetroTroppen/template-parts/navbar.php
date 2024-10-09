@@ -26,7 +26,7 @@
     </nav>
 
     <!-- Navbar with Links -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -36,7 +36,7 @@
                     <a class="nav-link" href="#">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Web shop</a>
+                    <a class="nav-link" href="<?php echo site_url('/shop')?>">Web shop</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Butik</a>
