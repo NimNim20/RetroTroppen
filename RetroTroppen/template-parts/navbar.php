@@ -9,7 +9,7 @@
             
             <!-- Search bar in the center -->
             <form class="d-flex mx-auto navbar-search">
-                <input class="form-control me-2 mw-100" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Søg</button>
             </form>
             
