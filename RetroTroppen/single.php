@@ -5,7 +5,7 @@
 
             <?php
             $categories = get_the_category();
-            $tags = get_the_tag(); 
+            $tags = get_the_tags(); 
             $title = get_the_title();
             $date = get_the_date();
             $author = get_the_author();
