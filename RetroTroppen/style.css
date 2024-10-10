@@ -36,6 +36,14 @@ html {
     background-color: #0056b3;
 }
 
+/* languages */
+
+.lang{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
 
 /* instagram start */
 
