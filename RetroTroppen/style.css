@@ -42,6 +42,10 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    text-decoration: none;
+    list-style: none;
+    background-color: #0F3947;
+    color: #FBF4D8;
 }
 
 
