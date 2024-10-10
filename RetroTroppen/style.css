@@ -37,10 +37,7 @@ html {
 }
 
 /* languages */
-.outlang{
-    display: flex;
-    justify-content: center;
-}
+
 
 .lang{
     display: flex;
@@ -51,11 +48,6 @@ html {
     background-color: #0F3947;
     color: #FBF4D8;
     gap: 10px;
-    width: 1296px;
-    max-width: 1296px;
-
-    /* I need Help with width */
-
 }
 
 .lang a{
