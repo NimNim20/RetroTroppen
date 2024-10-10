@@ -27,7 +27,6 @@
 
     <div class="row">
         <div class="col-3">
-            <ul>
                 <ul>ALLE</ul>
                 <ul>EVENTS</ul>
                 <li>foredrag</li>
@@ -40,7 +39,6 @@
 
                 <!-- nær den er dynamisk så kun en ul og il -->
 
-            </ul>
         </div>
         <div class="col-9">
 

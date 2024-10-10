@@ -13,9 +13,6 @@
     <?php while(have_posts()): the_post(); ?>
 
 
-        
-        
-
 
 <div class="container">
     <div class="topfild_page_blog">
@@ -32,30 +29,6 @@
     </div>
 
 </div>
-
-
-
-
-
-    <!-- <div class="container">
-
-       >
-
-                                <div class="dropdown">
-                                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    <?php pll_e("Sorter")?> 
-                                    </button>
-                                        <ul class="dropdown-menu">
-                                            <li><a class="dropdown-item" href="#"><?php pll_e("populær")?></a></li>
-                                            <li><a class="dropdown-item" href="#"><?php pll_e("nyeste")?></a></li>
-                                            <li><a class="dropdown-item" href="#"><?php pll_e("ældste")?></a></li>
-                                        </ul>
-
-    </div> -->
-
-
-    <!-- col-6 bottster på blogene -->
-
 
 
     <?php endwhile; ?>

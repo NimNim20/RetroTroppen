@@ -544,6 +544,6 @@ html {
 /* blog posts */
 
 .heroimg_blogpost{
-    width: 60vw;
-    height: 40vh;
+    width: 100%;
+    height: auto;
 }
