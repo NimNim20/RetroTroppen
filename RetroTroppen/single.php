@@ -46,7 +46,6 @@
 
                 <img class="heroimg_blogpost" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
 
-                <div class="singleunderherimg">
                 <span>Kategorier:</span>
                 <?php if($categories): ?>
                     <?php foreach($categories as $category): ?>
@@ -60,9 +59,9 @@
                         <a class="Katandtags" href="<?php echo get_tag_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
                     <?php endforeach; ?>
                 <?php endif; ?>
-                </div>
+               
 
-                <h1><?php echo $title ?></h1>
+                <h1 class="singletitle"><?php echo $title ?></h1>
                 <p><?php echo $date ?> </p></p>
                 <?php echo $author ?></p>
                 <div class="postcontent"><?php echo $content ?></div>
