@@ -47,11 +47,13 @@ html {
     background-color: #0F3947;
     color: #FBF4D8;
     gap: 10px;
+    width: 1350px;
 }
 
 .lang a{
     text-decoration: none;
     color: #FBF4D8;
+    padding-right: 10px;
 }
 
 
