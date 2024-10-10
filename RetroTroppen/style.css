@@ -46,6 +46,12 @@ html {
     list-style: none;
     background-color: #0F3947;
     color: #FBF4D8;
+    gap: 10px;
+}
+
+.lang a{
+    text-decoration: none;
+    color: #FBF4D8;
 }
 
 
