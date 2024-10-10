@@ -552,5 +552,7 @@ html {
     text-decoration: none;
     color: #FBF4D8;
     background-color: #0F3947;
-    border-radius: 50%;
+    border-radius: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
