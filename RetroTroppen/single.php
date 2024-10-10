@@ -56,7 +56,7 @@
                 <span>Tags:</span>
                 <?php if($tags): ?>
                     <?php foreach($tags as $tag): ?>
-                        <a href="<?php echo get_category_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
+                        <a href="<?php echo get_tag_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
                     <?php endforeach; ?>
                 <?php endif; ?>
 
