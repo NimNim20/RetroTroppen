@@ -49,14 +49,14 @@
                 <span>Kategorier:</span>
                 <?php if($categories): ?>
                     <?php foreach($categories as $category): ?>
-                        <a href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
+                        <a class="Katandtags" href="<?php echo get_category_link($category->term_id); ?>"><?php echo $category->name; ?></a>
                     <?php endforeach; ?>
                 <?php endif; ?>
 
                 <span>Tags:</span>
                 <?php if($tags): ?>
                     <?php foreach($tags as $tag): ?>
-                        <a href="<?php echo get_tag_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
+                        <a class="Katandtags" href="<?php echo get_tag_link($tag->term_id); ?>"><?php echo $tag->name; ?></a>
                     <?php endforeach; ?>
                 <?php endif; ?>
 
