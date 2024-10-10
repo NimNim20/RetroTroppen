@@ -17,6 +17,9 @@
             <div class="row">
                 <header>
                     <nav>
+                    <div class="lang"> 
+                         <?php pll_the_languages() ?>
+                    </div>
                         <?php get_template_part("template-parts/navbar"); ?>    
                     </nav>
                 </header>

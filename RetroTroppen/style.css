@@ -53,6 +53,9 @@ html {
     gap: 10px;
     width: 1296px;
     max-width: 1296px;
+
+    /* I need Help with width */
+
 }
 
 .lang a{
@@ -566,7 +569,7 @@ html {
 /* Forms styling end */
 
 
-/* blog posts */
+/* blog/singel posts */
 
 .heroimg_blogpost{
     width: 100%;
@@ -583,4 +586,12 @@ html {
 }
 .singletitle{
     padding-top: 40px;
+}
+
+.single_side_bar {
+    list-style: none;
+}
+
+.single_side_bar ul{
+    
 }
