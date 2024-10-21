@@ -128,3 +128,7 @@
 .woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt {
     background-color: #0F3947;
 }
+
+.woocommerce:where(body:not(.woocommerce-block-theme-has-button-styles)) button.button.alt:hover {
+    background-color: #001f2c;
+}
