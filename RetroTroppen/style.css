@@ -487,10 +487,6 @@ html {
     height: 50px;
 }
 
-.wpcf7-form-control.wpcf7-select option{
-    background-colour: #0f3947;
-}
-
 .wpcf7-form-control.wpcf7-textarea{
     width: 230%;
 }
@@ -631,6 +627,10 @@ html {
     text-decoration: underline;
 }
 
+.single_side_bar a{
+    text-decoration: none;
+}
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -655,6 +655,10 @@ html {
     font-size: 1rem;
     margin-bottom: 10px;
     font-family: "Montserrat", sans-serif;
+}
+
+.overlay a {
+    color: #ffffff;
 }
 
 .image-card {
@@ -682,8 +686,4 @@ html {
 
 .insta-posts {
     background-color: white;
-}
-
-.read-more{
-    color:  #ffffff;
 }
