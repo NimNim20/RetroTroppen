@@ -72,7 +72,7 @@
 }
 
 .woocommerce ul.products li.product .button:hover {
-    background-color: #B3CDD8;
+    background-color: #001f2c;
 }
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price {
     color: #BCA47C !important;
