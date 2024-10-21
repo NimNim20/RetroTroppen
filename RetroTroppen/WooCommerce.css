@@ -18,6 +18,12 @@
 .woocommerce ul.products li.product a img {
     max-width: 100%;
     height: auto;
+    width: 0% !important;
+    height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: none;
+
 }
 .woocommerce img, .woocommerce-page img {
     height: auto;
