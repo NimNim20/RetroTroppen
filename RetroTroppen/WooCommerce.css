@@ -140,5 +140,6 @@
 .woocommerce div.product div.summary {
     margin-top: 50px;
     display: flex;
+    flex-direction: column;
     justify-content: start;
 }
