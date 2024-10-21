@@ -627,6 +627,6 @@ html {
     margin-bottom: 5px;
 }
 
-..single_side_bar li :hover{
+.single_side_bar li :hover{
     text-decoration: underline;
 }
