@@ -178,6 +178,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    display: flex;
 }
 
 .woocommerce div.product .woocommerce-tabs .panel li {
