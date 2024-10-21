@@ -278,6 +278,11 @@ html {
     background-repeat: no-repeat;
 }
 
+.hero-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero-text {
     display: flex;
     flex-direction: column;
