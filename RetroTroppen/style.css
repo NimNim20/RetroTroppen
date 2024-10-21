@@ -610,6 +610,10 @@ html {
 .single_side_bar {
     list-style: none;
     color: #0F3947;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .single_side_bar ul{ 
