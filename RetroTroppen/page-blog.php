@@ -47,17 +47,17 @@
         <?php if($loop->have_posts()): ?>
         <?php while($loop->have_posts()): $loop->the_post(); ?>
 
-            <?php
-            $blogimg = get_field("Blog Image")();
-            $title = get_the_title();
-            $text = get_the_text();
+            <?php 
+             $title = get_the_title();
+             $content = get_the_content();
+             $hero = get_field("hero-image");
             ?>
 
             <div class="image-card">
-                <img src="<?php echo $blogimg['url']; ?>" alt="Blog Image" class="img-fluid">
+                <img src="<?php echo $hero['url']; ?>" alt="Blog Image" class="img-fluid">
                 <div class="overlay">
                     <h3><?php echo $title ?></h3>
-                    <p><?php echo $text1 ?></p>
+                    <p><?php echo $content ?></p>
                     <a href="#" class="read-more"><?php pll_e("Læs mere")?></a>
                 </div>
             </div>
