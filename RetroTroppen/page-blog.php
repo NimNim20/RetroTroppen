@@ -38,7 +38,7 @@
 
                                 <?php 
                                 $title = get_the_title();
-                                $excerpt = get_the_excerpt();
+                                // $excerpt = get_the_excerpt();
                                 $hero = get_field("hero-image");
                                 ?>
                                 <div class="col-6">
