@@ -77,3 +77,19 @@
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price {
     color: #BCA47C !important;
 }
+
+.page-title {
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-align: center;
+    font-family : "Playfair", serif;
+}
+.woocommerce-result-count {
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-align: center;
+    font-family : "Playfair", serif;
+
+}

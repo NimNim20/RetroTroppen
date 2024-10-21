@@ -19,7 +19,7 @@
         <div class="col-12">
             <div class="topfild_page_blog">
         
-               <a href="tilbage"><h3>Tilbage</h3></a> 
+               <a href="tilbage"><p>Tilbage</p></a> 
 
                
 
@@ -72,12 +72,13 @@
                 <?php echo $author ?></p>
                 <div class="postcontent"><?php echo $content ?></div>
 
+
+                <?php if(comments_open() || get_comments_number()): ?>
+                <?php comments_template(); ?>
+                <?php endif; ?>
+
             </article>
 
-
-            <?php if(comments_open() || get_comments_number()): ?>
-            <?php comments_template(); ?>
-            <?php endif; ?>
 
 
         </div>
