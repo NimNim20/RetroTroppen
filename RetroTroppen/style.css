@@ -650,7 +650,6 @@ html {
     padding: 20px;
     opacity: 0;
     transition: opacity 0.3s ease;
-    margin-bottom: 20px;
     
 }
 
@@ -675,6 +674,7 @@ html {
     position: relative;
     overflow: hidden;
     border-radius: 8px;
+    margin-bottom: 20px;
     /* Optional: round the corners */
 }
 
