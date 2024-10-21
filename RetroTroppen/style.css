@@ -585,7 +585,10 @@ html {
     list-style: none;
 }
 
-.single_side_bar ul{
-    
+.single_side_bar ul{ 
     padding-left: 0px;
+}
+
+.single_side_bar li{ 
+    padding-left: 20px;
 }
