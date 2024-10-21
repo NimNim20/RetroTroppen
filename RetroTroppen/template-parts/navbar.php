@@ -30,10 +30,10 @@
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Forside</a>
+                    <a class="nav-link active" aria-current="page" href="<?php echo site_url('/') ?>">Forside</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="<?php echo site_url('/blog')?>">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="<?php echo site_url('/shop')?>">Web shop</a>
