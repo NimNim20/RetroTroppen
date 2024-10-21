@@ -1,7 +1,8 @@
 <?php get_header() ?>
+    <?php $loop = new WP_Query(array("post_type" => "post", "posts_per_page" => -1)) ?>
 
-    <?php if(have_posts()): ?>
-        <?php while(have_posts()): the_post(); ?>
+    <?php if($loop->have_posts()): ?>
+        <?php while($loop->have_posts()): $loop->the_post(); ?>
 
             <?php
             $categories = get_the_category();
@@ -58,6 +59,7 @@
 
         
         <?php endwhile; ?>
+        <?php wp_reset_postdata() ?>
 
         <?php echo paginate_links(); ?>
 
