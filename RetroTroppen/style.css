@@ -569,6 +569,12 @@ html {
     margin-bottom: 20px;
 }
 
+.topfild_page_blog a{
+    text-decoration: none;
+    color:  #0f3947;
+}
+
+
 .heroimg_blogpost{
     width: 100%;
     height: auto;
