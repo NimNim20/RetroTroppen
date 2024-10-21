@@ -152,7 +152,7 @@ html {
     padding-top: 15px;
 }
 
-.search {
+.navbar-search {
     float: right;
     padding: 6px;
     border: none;
@@ -610,7 +610,8 @@ html {
 .single_side_bar {
     list-style: none;
     color: #0F3947;
-    margin-top: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
 
 
 }
@@ -624,4 +625,8 @@ html {
 .single_side_bar li{ 
     padding-left: 20px;
     margin-bottom: 5px;
+}
+
+.single_side_bar li :hover{
+    text-decoration: underline;
 }
