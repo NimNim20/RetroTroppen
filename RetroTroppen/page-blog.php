@@ -44,6 +44,15 @@
         </div>
         <div class="col-9">
           
+        <?php if($loop->have_posts()): ?>
+        <?php while($loop->have_posts()): $loop->the_post(); ?>
+
+            <?php
+            $blogimg = get_field("Blog Image")();
+            $title = get_the_title();
+            $text = get_the_text();
+            ?>
+
             <div class="image-card">
                 <img src="<?php echo $blogimg['url']; ?>" alt="Blog Image" class="img-fluid">
                 <div class="overlay">
@@ -53,15 +62,17 @@
                 </div>
             </div>
 
+            <?php endwhile; ?>
+        <?php wp_reset_postdata() ?>
+
+        <?php echo paginate_links(); ?>
+
         </div>
     </div>
             
 
         
-        <?php endwhile; ?>
-        <?php wp_reset_postdata() ?>
-
-        <?php echo paginate_links(); ?>
+       
 
     <?php endif; ?>
 
