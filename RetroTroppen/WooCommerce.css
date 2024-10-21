@@ -165,4 +165,12 @@
 
 .woocommerce div.product .woocommerce-tabs .panel {
     padding-left: 15px;
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+    text-align: center; 
+    padding: 15px; 
+    max-width: 800px; 
+    margin: 0 auto; 
+
 }
