@@ -1,6 +1,6 @@
 <?php get_header() ?>
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <div class="topfild_page_blog">
             
@@ -8,7 +8,7 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col-3">
