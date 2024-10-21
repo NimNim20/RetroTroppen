@@ -2,17 +2,14 @@
 
 /* Remove the default WooCommerce styles */
 .woocommerce ul.products li.product {
-    margin: 0;
+    margin-bottom: 0;
     padding: 0;
     list-style: none;
-    width: 33.3333%;
-    padding: 0 15px;
-    margin-bottom: 30px;
+    width: 100%;
 }
 
 
-
-.products {
+.products-columns-4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
