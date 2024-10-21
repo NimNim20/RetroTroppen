@@ -28,11 +28,11 @@
     </div>
 
     <div class="row">
-        
+
             <div class="col-3">
 
                 <div class="single_side_bar">
-                    <ul>ALLE</ul>
+                    <a href=""><ul>ALLE</ul></a>
                     <ul>EVENTS</ul>
                     <li>Foredrag</li>
                     <li>Åbent hus</li>
