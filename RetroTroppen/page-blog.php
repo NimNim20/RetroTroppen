@@ -27,7 +27,7 @@
                     <!-- nær den er dynamisk så kun en ul og il -->
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-9 okkurt">
 
                 <div class="container-fluid">
                     <div class="row">
