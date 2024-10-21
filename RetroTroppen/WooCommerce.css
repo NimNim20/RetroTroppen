@@ -101,3 +101,7 @@
     font-family : "Playfair", serif;
 
 }
+
+.woocommerce .woocommerce-ordering {
+    padding-right: 25px;
+}
