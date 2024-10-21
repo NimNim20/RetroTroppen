@@ -94,6 +94,9 @@
     font-size: 1.5em;
     margin: 0 0 1em;
     padding: 0;
+    display: flex;
+    justify-content: start;
+    align-items: start;
     text-align: center;
     font-family : "Playfair", serif;
 
