@@ -38,6 +38,7 @@
     padding: 0;
     text-align: center;
     color: #BCA47C;
+    max-width: 600px;
 }
 
 .price {
