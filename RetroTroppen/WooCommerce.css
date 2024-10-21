@@ -168,3 +168,17 @@
     margin: 0 auto; 
 
 }
+
+.woocommerce div.product .woocommerce-tabs .panel ul {
+    padding: 0; /* Remove padding on the list */
+    margin: 0; /* Remove margin */
+    list-style-position: inside; /* Adjust list bullet position */
+    max-width: 500px; /* Restrict the width of the list */
+    width: 100%; /* Make sure the list takes the available space */
+}
+
+.woocommerce div.product .woocommerce-tabs .panel li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    word-wrap: break-word; /* Ensure long words wrap within the list */
+    text-align: left; /* Align list items' text to the left for better readability */
+}
