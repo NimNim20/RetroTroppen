@@ -41,7 +41,7 @@
                                 $excerpt = get_the_excerpt();
                                 $hero = get_field("hero-image");
                                 ?>
-                                <div class="col-4">
+                                <div class="col-6">
                                     <div class="image-card">
                                         <img src="<?php echo $hero['url']; ?>" alt="Blog Image" class="img-fluid">
                                         <div class="overlay">
