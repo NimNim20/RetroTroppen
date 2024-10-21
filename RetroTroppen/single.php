@@ -28,7 +28,7 @@
     </div>
 
     <div class="row">
-             <div class="col-3">
+             <div class="col-3 side_bar">
             
                 <div class="single_side_bar">
                     <ul>ALLE</ul>
