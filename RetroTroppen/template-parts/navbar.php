@@ -1,6 +1,5 @@
 
     <!-- Navbar with Logo, Search Bar, Cart, and User Icon -->
-<section id="retroNav">
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <!-- Logo on the left -->
@@ -25,7 +24,7 @@
             </div>
         </div>
     </nav>
-</section>
+    
     <!-- Navbar with Links -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid justify-content-center">
