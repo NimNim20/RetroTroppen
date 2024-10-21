@@ -629,6 +629,11 @@ html {
 
 .single_side_bar a{
     text-decoration: none;
+    color: #0F3947;
+}
+
+.single_side_bar a :hover{
+    text-decoration: underline;
 }
 
 .overlay {
