@@ -646,14 +646,14 @@ html {
 .overlay h3 {
     font-size: 2rem;
     margin-bottom: 10px;
-    font-family: "quicksand", sans-serif;
+    font-family: "Playfair", serif;
     color: #13aa5f;
 }
 
 .overlay p {
     font-size: 1rem;
     margin-bottom: 10px;
-    font-family: "lora", serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 .image-card {
