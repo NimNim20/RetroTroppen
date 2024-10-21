@@ -1,36 +1,38 @@
-/* Remove the default WooCommerce styles and add custom styles, also that there is 3 products showcased in each line and then it breaks */
-
 /* Remove the default WooCommerce styles */
 .woocommerce ul.products li.product {
-    margin-bottom: 0;
+    margin-bottom: 30px; /* Adds space between products */
     padding: 0;
     list-style: none;
-    width: 100%;
+    width: 100%; /* Full width for responsiveness */
 }
 
-
-.products-columns-4 {
+.products-columns-3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between; /* Space between products */
+}
+
+/* Each product will take 1/3 of the row */
+.woocommerce ul.products li.product {
+    flex: 1 1 calc(33.333% - 20px); /* 3 products per row, with space */
+    margin: 10px; /* Adds some spacing around each product */
+    box-sizing: border-box;
 }
 
 .woocommerce ul.products li.product a img {
     max-width: 100%;
     height: auto;
-    width: auto !important;
-    height: auto;
     display: block;
     margin: 0 0 1em;
     box-shadow: none;
-
 }
+
 .woocommerce img, .woocommerce-page img {
     height: auto;
     max-width: 100%;
 }
 
-
+/* Center align the product title */
 .woocommerce-loop-product__title {
     font-size: 1.5em;
     margin: 0;
@@ -38,15 +40,38 @@
     text-align: center;
 }
 
+/* Custom styling for price box */
 .price {
     display: block;
     padding: 10px 15px;
-    background-color: #f7f7f7; 
-    border: 2px solid #ff9800; 
-    border-radius: 8px; 
+    background-color: #f7f7f7;
+    border: 2px solid #ff9800;
+    border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
-    color: #333; 
+    color: #333;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    width: 50%;
+    text-align: center;
+    margin: 10px auto; /* Centers the price box */
+    width: fit-content; /* Automatically adjusts to content */
+}
+
+/* Ensure the 'Add to Cart' button is visible and clickable */
+.woocommerce ul.products li.product .button {
+    display: block;
+    margin: 10px auto; /* Centers the button */
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.woocommerce ul.products li.product .button:hover {
+    background-color: #e68900; /* Slightly darker on hover */
 }
