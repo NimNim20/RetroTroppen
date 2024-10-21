@@ -156,15 +156,9 @@
     justify-content: start;
     align-items: start;
 }
-.woocommerce div.product .woocommerce-tabs {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: start;
-}
+
 
 .woocommerce div.product .woocommerce-tabs .panel {
-    padding-left: 15px;
     display: flex;
     justify-content: center; 
     flex-direction: column;
