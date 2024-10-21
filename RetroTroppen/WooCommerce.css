@@ -29,3 +29,23 @@
     height: auto;
     max-width: 100%;
 }
+
+
+.woocommerce-loop-product__title {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.price {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #f7f7f7; 
+    border: 2px solid #ff9800; 
+    border-radius: 8px; 
+    font-size: 18px;
+    font-weight: bold;
+    color: #333; 
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
