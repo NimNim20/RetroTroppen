@@ -1,25 +1,95 @@
-/* Remove the default WooCommerce styles and add custom styles, also that there is 3 products showcased in each line and then it breaks */
-
 /* Remove the default WooCommerce styles */
 .woocommerce ul.products li.product {
-    margin-bottom: 0;
+    margin-bottom: 30px; 
     padding: 0;
-    list-style: none;
-    width: 100%;
+    list-style: none; 
+}
+
+.products-columns-3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 
-.products-columns-4 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.woocommerce ul.products li.product {
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
 }
 
 .woocommerce ul.products li.product a img {
     max-width: 100%;
     height: auto;
+    display: block;
+    margin: 0 0 1em;
+    box-shadow: none;
 }
+
 .woocommerce img, .woocommerce-page img {
     height: auto;
     max-width: 100%;
+}
+
+
+.woocommerce-loop-product__title {
+    font-size: 1.5em;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    color: #BCA47C;
+}
+
+.price {
+    display: block;
+    padding: 10px 15px;
+    background-color: #f7f7f7;
+    border: 2px solid #B3CDD8;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 10px auto;
+    width: fit-content; 
+}
+
+/* Ensure the 'Add to Cart' button is visible and clickable */
+.woocommerce ul.products li.product .button {
+    display: block;
+    margin: 10px auto; 
+    padding: 10px 20px;
+    background-color: #0F3947;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.woocommerce ul.products li.product .button:hover {
+    background-color: #001f2c;
+}
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price {
+    color: #BCA47C !important;
+}
+
+.page-title {
+    font-size: 2em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-align: center;
+    font-family : "Playfair", serif;
+}
+.woocommerce-result-count {
+    font-size: 1.5em;
+    margin: 0 0 1em;
+    padding: 0;
+    text-align: center;
+    font-family : "Playfair", serif;
+
 }

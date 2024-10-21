@@ -1,7 +1,8 @@
 <?php get_header() ?>
+    <?php $loop = new WP_Query(array("post_type" => "post", "posts_per_page" => -1)) ?>
 
-    <?php if(have_posts()): ?>
-        <?php while(have_posts()): the_post(); ?>
+    <?php if($loop->have_posts()): ?>
+        <?php while($loop->have_posts()): $loop->the_post(); ?>
 
             <?php
             $categories = get_the_category();
@@ -41,23 +42,17 @@
                 <!-- nær den er dynamisk så kun en ul og il -->
             </div>
         </div>
-        <div class="col-9">
+        <!-- <div class="col-9">
           
-            <div class="image-card">
-                <img src="<?php echo $blogimg['url']; ?>" alt="Blog Image" class="img-fluid">
-                <div class="overlay">
-                    <h3><?php echo $title1 ?></h3>
-                    <p><?php echo $text1 ?></p>
-                    <a href="#" class="read-more"><?php pll_e("Læs mere")?></a>
-                </div>
-            </div>
+            
 
-        </div>
+        </div> -->
     </div>
             
 
         
         <?php endwhile; ?>
+        <?php wp_reset_postdata() ?>
 
         <?php echo paginate_links(); ?>
 

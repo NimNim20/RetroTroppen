@@ -19,7 +19,7 @@
         <div class="col-12">
             <div class="topfild_page_blog">
         
-               <a href="tilbage"><h3>Tilbage</h3></a> 
+               <a href="tilbage"><p>Tilbage</p></a> 
 
                
 
@@ -34,9 +34,9 @@
                 <div class="single_side_bar">
                     <ul>ALLE</ul>
                     <ul>EVENTS</ul>
-                    <li>foredrag</li>
-                    <li>åbent hus</li>
-                    <li>særudstillinger</li>
+                    <li>Foredrag</li>
+                    <li>Åbent hus</li>
+                    <li>Særudstillinger</li>
                     <ul>ARTILER</ul>
                     <li>DIY</li>
                     <li>Indretning</li>
@@ -48,7 +48,7 @@
         </div>
         <div class="col-9">
 
-            <article>
+            <article class="single_all_of_the_content">
 
                 <img class="heroimg_blogpost" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
 
@@ -72,12 +72,13 @@
                 <?php echo $author ?></p>
                 <div class="postcontent"><?php echo $content ?></div>
 
+
+                <?php if(comments_open() || get_comments_number()): ?>
+                <?php comments_template(); ?>
+                <?php endif; ?>
+
             </article>
 
-
-            <?php if(comments_open() || get_comments_number()): ?>
-            <?php comments_template(); ?>
-            <?php endif; ?>
 
 
         </div>
