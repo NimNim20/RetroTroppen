@@ -189,7 +189,17 @@
 
 #product-275 > section.up-sells.upsells.products {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#product-275 > section.related.products {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 0;
