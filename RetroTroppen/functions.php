@@ -23,10 +23,11 @@ function pll_register_strings() {
     pll_register_string("index", "Følg os på Sociale media");
     pll_register_string("index", "RetroTroppen");
     pll_register_string("home", "Nyeste opslag");
-    pll_register_string("RetroTroppen", "Læs mere");
+    pll_register_string("index", "Læs mere");
     pll_register_string("single", "Kommentar");
     pll_register_string("single", "Kommentarne er lukket");
     pll_register_string("index", "Populært Retro");
+    pll_register_string("blog", "Læs mere");
 }
 
 add_action("init", "pll_register_strings");

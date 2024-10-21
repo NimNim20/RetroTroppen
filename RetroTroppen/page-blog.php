@@ -43,6 +43,14 @@
         </div>
         <div class="col-9">
           
+            <div class="image-card">
+                <img src="<?php echo $blogimg['url']; ?>" alt="Blog Image" class="img-fluid">
+                <div class="overlay">
+                    <h3><?php echo $title1 ?></h3>
+                    <p><?php echo $text1 ?></p>
+                    <a href="#" class="read-more"><?php pll_e("Læs mere")?></a>
+                </div>
+            </div>
 
         </div>
     </div>
