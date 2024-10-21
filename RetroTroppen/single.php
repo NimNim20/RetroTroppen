@@ -34,9 +34,9 @@
                 <div class="single_side_bar">
                     <ul>ALLE</ul>
                     <ul>EVENTS</ul>
-                    <li>foredrag</li>
-                    <li>åbent hus</li>
-                    <li>særudstillinger</li>
+                    <li>Foredrag</li>
+                    <li>Åbent hus</li>
+                    <li>Særudstillinger</li>
                     <ul>ARTILER</ul>
                     <li>DIY</li>
                     <li>Indretning</li>
