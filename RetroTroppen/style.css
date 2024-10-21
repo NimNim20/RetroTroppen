@@ -641,13 +641,14 @@ html {
     padding: 20px;
     opacity: 0;
     transition: opacity 0.3s ease;
+    
 }
 
 .overlay h3 {
     font-size: 2rem;
     margin-bottom: 10px;
     font-family: "Playfair", serif;
-    color: #13aa5f;
+    color: #B3CDD8;
 }
 
 .overlay p {
