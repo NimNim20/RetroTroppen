@@ -678,3 +678,7 @@ html {
     opacity: 1;
     /* Show overlay on hover */
 }
+
+.insta-posts {
+    background-color: white;
+}

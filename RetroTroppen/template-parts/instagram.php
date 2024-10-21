@@ -22,7 +22,7 @@ $loop = new WP_Query(array(
             $date = get_field("date")
             ?>
            
-            <div class="col-3">
+            <div class="col-3 insta-posts">
                 <div class="card h-100 d-flex flex-column"> <!-- Ensure card takes full height -->
                     <img src="<?php echo $image["url"] ?>" class="card-img-top" alt="...">
     
