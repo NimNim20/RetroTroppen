@@ -29,6 +29,7 @@ function pll_register_strings() {
     pll_register_string("single", "Kommentarne er lukket");
     pll_register_string("index", "Populært Retro");
     pll_register_string("blog", "Læs mere");
+    pll_register_string("single", "Tilbage");
 }
 
 add_action("init", "pll_register_strings");

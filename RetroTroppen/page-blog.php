@@ -20,7 +20,7 @@
         <div class="col-12">
             <div class="topfild_page_blog">
         
-                <h3>tilbage</h3>
+                <h3><?php pll_e("Tilbage")?></h3>
 
             </div>
         </div>
@@ -30,14 +30,15 @@
         <div class="col-3">
             <div class="single_side_bar">
                 <ul>ALLE</ul>
-                <ul>EVENTS</ul>
-                <li>foredrag</li>
-                <li>åbent hus</li>
-                <li>særudstillinger</li>
-                <ul>ARTILER</ul>
-                <li>DIY</li>
-                <li>Indretning</li>
-                <li>Historik</li>
+                <ul>RETRO EVENTS</ul>
+                    <li>Retro foredrag</li>
+                    <li>Retro åbent hus</li>
+                    <li>Retro butik</li>
+                    <li>Møbeldesign foredrag</li>
+                <ul>RETRO ARTIKLER</ul>
+                    <li>Møbel vedligehold</li>
+                    <li>Retro møbler</li>
+                    <li>Møbelhistorie</li>
 
                 <!-- nær den er dynamisk så kun en ul og il -->
             </div>

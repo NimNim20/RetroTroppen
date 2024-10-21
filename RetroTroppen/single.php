@@ -32,15 +32,16 @@
 
             
                 <div class="single_side_bar">
-                    <ul>ALLE</ul>
-                    <ul>EVENTS</ul>
-                    <li>Foredrag</li>
-                    <li>Åbent hus</li>
-                    <li>Særudstillinger</li>
-                    <ul>ARTILER</ul>
-                    <li>DIY</li>
-                    <li>Indretning</li>
-                    <li>Historik</li>
+                <ul>ALLE</ul>
+                <ul>RETRO EVENTS</ul>
+                    <li>Retro foredrag</li>
+                    <li>Retro åbent hus</li>
+                    <li>Retro butik</li>
+                    <li>Møbeldesign foredrag</li>
+                <ul>RETRO ARTIKLER</ul>
+                    <li>Møbel vedligehold</li>
+                    <li>Retro møbler</li>
+                    <li>Møbelhistorie</li>
 
                     <!-- nær den er dynamisk så kun en ul og il -->
                 </div>
