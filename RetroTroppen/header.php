@@ -9,8 +9,6 @@
     <title><?php pll_e("RetroTroppen")?></title>
     <?php wp_head() ?>
             
-        <div class="container">
-            <div class="row">
                 <header>
                     <nav>
                     <div class="lang"> 
@@ -19,8 +17,6 @@
                         <?php get_template_part("template-parts/navbar"); ?>    
                     </nav>
                 </header>
-            </div>
-        </div>
 
 
 </head>
