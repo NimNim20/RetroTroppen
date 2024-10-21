@@ -19,6 +19,15 @@
     align-items: center;
     width: auto;
 }
+.woocommerce .products ul, .woocommerce ul.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
 
 .woocommerce ul.products li.product a img {
     max-width: 100%;
