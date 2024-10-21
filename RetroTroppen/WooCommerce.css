@@ -143,3 +143,7 @@
     flex-direction: column;
     justify-content: start;
 }
+
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product p.price {
+    margin: 0;
+}
