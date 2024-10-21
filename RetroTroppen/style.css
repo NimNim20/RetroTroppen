@@ -459,12 +459,14 @@ html {
 
 
 .bg-light {
-    margin-top: 50px;
     display: flex;
     flex-direction: column;
     background-color: #0f3947 !important;
 }
 
+#retroNav {
+    margin-top: 50px;
+}
 
 .links {
     font-size: 1em;
