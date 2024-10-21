@@ -28,20 +28,22 @@
     </div>
 
     <div class="row">
-        <div class="col-3">
-            <div class="single_side_bar">
-                <ul>ALLE</ul>
-                <ul>EVENTS</ul>
-                <li>foredrag</li>
-                <li>åbent hus</li>
-                <li>særudstillinger</li>
-                <ul>ARTILER</ul>
-                <li>DIY</li>
-                <li>Indretning</li>
-                <li>Historik</li>
+             <div class="col-3">
+            
+                <div class="single_side_bar">
+                    <ul>ALLE</ul>
+                    <ul>EVENTS</ul>
+                    <li>foredrag</li>
+                    <li>åbent hus</li>
+                    <li>særudstillinger</li>
+                    <ul>ARTILER</ul>
+                    <li>DIY</li>
+                    <li>Indretning</li>
+                    <li>Historik</li>
 
-                <!-- nær den er dynamisk så kun en ul og il -->
-            </div>
+                    <!-- nær den er dynamisk så kun en ul og il -->
+                </div>
+            
         </div>
         <div class="col-9">
 
