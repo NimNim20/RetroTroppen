@@ -48,7 +48,7 @@
         </div>
         <div class="col-9">
 
-            <article>
+            <article class="single_all_of_the_content">
 
                 <img class="heroimg_blogpost" src="<?php echo $hero["url"]?>" alt="<?php echo $hero["alt"]?>">
 
