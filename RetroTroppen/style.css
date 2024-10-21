@@ -564,6 +564,11 @@ html {
 
 /* blog/singel posts */
 
+.topfild_page_blog{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .heroimg_blogpost{
     width: 100%;
     height: auto;
@@ -587,9 +592,11 @@ html {
 
 .single_side_bar ul{ 
     padding-left: 0px;
+    font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .single_side_bar li{ 
     padding-left: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 5px;
 }
