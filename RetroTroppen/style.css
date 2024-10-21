@@ -587,5 +587,5 @@ html {
 
 .single_side_bar ul{
     
-    text-align: left;
+    padding-left: 0px;
 }
