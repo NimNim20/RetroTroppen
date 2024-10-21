@@ -16,6 +16,9 @@
     flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .woocommerce ul.products li.product a img {
