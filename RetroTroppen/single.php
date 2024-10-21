@@ -28,9 +28,9 @@
     </div>
 
     <div class="row">
-             <div class="col-3">
 
-            
+            <div class="col-3">
+
                 <div class="single_side_bar">
                 <ul>ALLE</ul>
                 <ul>RETRO EVENTS</ul>
@@ -44,7 +44,7 @@
                     <li>Møbelhistorie</li>
 
                     <!-- nær den er dynamisk så kun en ul og il -->
-                </div>
+            </div>
             
         </div>
         <div class="col-9">
