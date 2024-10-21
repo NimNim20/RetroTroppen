@@ -13,12 +13,13 @@
 
 
 .woocommerce ul.products li.product {
-    flex: 1 1 calc(33.333% - 20px);
     margin: 10px;
     box-sizing: border-box;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    align-items: center;
+    width: auto;
 }
 
 .woocommerce ul.products li.product a img {
@@ -36,7 +37,7 @@
 
 
 .woocommerce ul.products li.product .woocommerce-loop-product__title {
-    font-size: 1.5em;
+    font-size: 1em;
     margin: 0;
     padding: 0;
     text-align: center;
