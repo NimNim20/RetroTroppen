@@ -630,3 +630,51 @@ html {
 .single_side_bar li :hover{
     text-decoration: underline;
 }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #003955b6;
+    color: white;
+    padding: 20px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.overlay h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: "quicksand", sans-serif;
+    color: #13aa5f;
+}
+
+.overlay p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: "lora", serif;
+}
+
+.image-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    /* Optional: round the corners */
+}
+
+.image-card img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.image-card:hover img {
+    transform: scale(1.1);
+    /* Slight zoom on hover */
+}
+
+.image-card:hover .overlay {
+    opacity: 1;
+    /* Show overlay on hover */
+}
