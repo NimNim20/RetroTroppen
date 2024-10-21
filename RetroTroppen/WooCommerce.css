@@ -136,3 +136,9 @@
 .woocommerce:where(body:not(.woocommerce-uses-block-theme)) div.product .stock {
     color: #BCA47C;
 }
+
+.woocommerce div.product div.summary {
+    margin-top: 50px;
+    display: flex;
+    justify-content: start;
+}
