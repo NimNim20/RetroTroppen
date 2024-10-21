@@ -29,7 +29,7 @@
 
     <div class="row">
         <div class="side_bar">
-             <div class="col-3 side bar">
+             <div class="col-3">
             
                 <div class="single_side_bar">
                     <ul>ALLE</ul>
