@@ -574,10 +574,15 @@ html {
     color:  #0f3947;
 }
 
+.single_all_of_the_content{
+    margin-left: 5px;
+}
+
 
 .heroimg_blogpost{
     width: 100%;
     height: auto;
+    margin-bottom: 5px;
 }
 
 .Katandtags{
@@ -587,7 +592,7 @@ html {
     border-radius: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    padding-top: 5px;
+    
 }
 .singletitle{
     padding-top: 40px;
