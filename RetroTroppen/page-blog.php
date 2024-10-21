@@ -34,7 +34,7 @@
 
                         <?php 
                         $title = get_the_title();
-                        $content = get_the_content();
+                        $excerpt = get_the_excerpt();
                         $hero = get_field("hero-image");
                         ?>
 
@@ -42,7 +42,7 @@
                             <img src="<?php echo $hero['url']; ?>" alt="Blog Image" class="img-fluid">
                             <div class="overlay">
                                 <h3><?php echo $title ?></h3>
-                                <p><?php echo $content ?></p>
+                                <p><?php echo $excerpt ?></p>
                                 <a href="#" class="read-more"><?php pll_e("Læs mere")?></a>
                             </div>
                         </div>
