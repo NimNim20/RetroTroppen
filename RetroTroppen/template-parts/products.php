@@ -17,8 +17,8 @@ $loop = new WP_Query(array(
             $title = get_the_title();
             $excerpt = get_the_excerpt();
             $price = $product->get_price_html();
-            $link = get_the_permelink()
-            $image = get_field("image");
+            $link = get_the_permelink();
+            $image = get_field("popular_product_img");
             ?>
 
             <div class="kategorier">
