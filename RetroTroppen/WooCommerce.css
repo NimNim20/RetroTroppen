@@ -1,0 +1,19 @@
+/* Remove the default WooCommerce styles and add custom styles, also that there is 3 products showcased in each line and then it breaks */
+
+/* Remove the default WooCommerce styles */
+.woocommerce ul.products li.product {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 33.3333%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
