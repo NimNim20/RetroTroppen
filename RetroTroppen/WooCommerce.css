@@ -1,21 +1,21 @@
 /* Remove the default WooCommerce styles */
 .woocommerce ul.products li.product {
-    margin-bottom: 30px; /* Adds space between products */
+    margin-bottom: 30px; 
     padding: 0;
     list-style: none;
-    width: 100%; /* Full width for responsiveness */
+    width: 100%; 
 }
 
 .products-columns-3 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between; /* Space between products */
+    justify-content: space-between;
 }
 
-/* Each product will take 1/3 of the row */
+
 .woocommerce ul.products li.product {
-    flex: 1 1 calc(33.333% - 20px); /* 3 products per row, with space */
-    margin: 10px; /* Adds some spacing around each product */
+    flex: 1 1 calc(33.333% - 20px);
+    margin: 10px;
     box-sizing: border-box;
 }
 
@@ -32,7 +32,7 @@
     max-width: 100%;
 }
 
-/* Center align the product title */
+
 .woocommerce-loop-product__title {
     font-size: 1.5em;
     margin: 0;
@@ -40,7 +40,6 @@
     text-align: center;
 }
 
-/* Custom styling for price box */
 .price {
     display: block;
     padding: 10px 15px;
@@ -52,14 +51,14 @@
     color: #333;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
-    margin: 10px auto; /* Centers the price box */
-    width: fit-content; /* Automatically adjusts to content */
+    margin: 10px auto;
+    width: fit-content; 
 }
 
 /* Ensure the 'Add to Cart' button is visible and clickable */
 .woocommerce ul.products li.product .button {
     display: block;
-    margin: 10px auto; /* Centers the button */
+    margin: 10px auto; 
     padding: 10px 20px;
     background-color: #ff9800;
     color: #fff;
@@ -73,5 +72,26 @@
 }
 
 .woocommerce ul.products li.product .button:hover {
-    background-color: #e68900; /* Slightly darker on hover */
+    background-color: #e68900;
+}
+
+/* Targeting a specific product by ID (post-260) */
+.post-260 {
+    background-color: #f0f8ff;
+    border: 2px solid #ff9800; 
+}
+
+/* Target only the price of product with ID 260 */
+.post-260 .price {
+    color: #ff5722; 
+}
+
+/* Target the "Add to Cart" button of product with ID 260 */
+.post-260 .button {
+    background-color: #ff5722;
+    color: #fff;
+}
+
+.post-260 .button:hover {
+    background-color: #e64a19;
 }
