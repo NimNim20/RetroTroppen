@@ -43,7 +43,7 @@
     display: block;
     padding: 10px 15px;
     background-color: #f7f7f7;
-    border: 2px solid #ff9800;
+    border: 2px solid #B3CDD8;
     border-radius: 8px;
     font-size: 18px;
     font-weight: bold;
@@ -59,7 +59,7 @@
     display: block;
     margin: 10px auto; 
     padding: 10px 20px;
-    background-color: #ff9800;
+    background-color: #B3CDD8;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -71,26 +71,6 @@
 }
 
 .woocommerce ul.products li.product .button:hover {
-    background-color: #e68900;
+    background-color: #0F3947;
 }
 
-/* Targeting a specific product by ID (post-260) */
-.post-260 {
-    background-color: #f0f8ff;
-    border: 2px solid #ff9800; 
-}
-
-/* Target only the price of product with ID 260 */
-.post-260 .price {
-    color: #ff5722; 
-}
-
-/* Target the "Add to Cart" button of product with ID 260 */
-.post-260 .button {
-    background-color: #ff5722;
-    color: #fff;
-}
-
-.post-260 .button:hover {
-    background-color: #e64a19;
-}
