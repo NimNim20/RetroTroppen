@@ -37,6 +37,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    color: #BCA47C;
 }
 
 .price {
@@ -59,7 +60,7 @@
     display: block;
     margin: 10px auto; 
     padding: 10px 20px;
-    background-color: #B3CDD8;
+    background-color: #0F3947;
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -71,6 +72,6 @@
 }
 
 .woocommerce ul.products li.product .button:hover {
-    background-color: #0F3947;
+    background-color: #B3CDD8;
 }
 
