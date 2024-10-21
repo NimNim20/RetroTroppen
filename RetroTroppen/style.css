@@ -569,6 +569,10 @@ html {
     margin-bottom: 20px;
 }
 
+.topfild_page_blog :hover{
+    text-decoration: underline;
+}
+
 .topfild_page_blog a{
     text-decoration: none;
     color:  #0f3947;
