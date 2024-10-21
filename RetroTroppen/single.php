@@ -28,8 +28,9 @@
     </div>
 
     <div class="row">
-        <div class="col-3">
-            <div class="side_bar">
+        <div class="side_bar">
+             <div class="col-3 side bar">
+            
                 <div class="single_side_bar">
                     <ul>ALLE</ul>
                     <ul>EVENTS</ul>
