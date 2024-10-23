@@ -38,16 +38,15 @@
 
                                 <?php 
                                 $title = get_the_title();
-                                $excerpt = get_the_excerpt();
                                 $hero = get_field("hero-image");
+                                $link = get_permalink();
                                 ?>
                                 <div class="col-6">
                                     <div class="image-card">
                                         <img src="<?php echo $hero['url']; ?>" alt="Blog Image" class="img-fluid">
                                         <div class="overlay">
                                             <h3><?php echo $title ?></h3>
-                                            <p><?php echo $excerpt ?></p>
-                                            <a href="#" class="read-more"><?php pll_e("Læs mere")?></a>
+                                            <a href="<?php echo $link ?>" class="read-more"><?php pll_e("Læs mere")?></a>
                                         </div>
                                     </div>
                                 </div>
