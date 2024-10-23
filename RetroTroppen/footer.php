@@ -5,7 +5,8 @@
       <article class="col-lg-6 col-md-12 mb-4">
         <h1 class="footer_headings">Retro Troppen</h1>
         <p class="footer_paragraph">
-          <?php pll_e("Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>")?>
+          <?php pll_e("Vores værdier er baseret på kvalitet, design og bæredygtighed.")?>
+          <?php pll_e ("Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.")?>
         </p>
       </article>
 

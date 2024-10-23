@@ -32,6 +32,10 @@ function pll_register_strings() {
     pll_register_string("single", "Tilbage");
     pll_register_string("index", "RetroTroppen på Instagram");
     pll_register_string("footer", "Vores links");
+    pll_register_string("footer", "Hjem");
+    pll_register_string("footer", "Om Os");
+    pll_register_string("footer", "Blog");
+    pll_register_string("footer", "Kontakt");
     pll_register_string("footer", "Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>");
 }
 
