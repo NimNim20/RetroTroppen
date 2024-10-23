@@ -11,7 +11,7 @@
       </article>
 
       <nav class="col-lg-3 col-md-6 mb-4" aria-label="Footer navigation">
-        <h2 class="footer_headings"><?php pll_e ("Vores Links")?></h2>
+        <h2 class="footer_headings"><?php pll_e ("Vores links")?></h2>
         <ul class="list-unstyled mb-0 footer-list">
           <li><a href="#" class="links text-white"><?php pll_e ("Hjem")?></a></li>
           <li><a href="#" class="links text-white"><?php pll_e ("Om os")?></a></li>
