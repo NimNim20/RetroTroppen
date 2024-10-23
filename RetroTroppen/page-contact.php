@@ -24,7 +24,7 @@
         <section class="contactForm">
           <div class="container">
               <div class="col-12">
-                <h2><?php echo $welcomeTxt; ?></h2>
+                <h2 class="welcomeTxt"><?php echo $welcomeTxt; ?></h2>
                 <div class="reqTxt"><?php echo $reqTxt; ?></div>
                 <?php echo do_shortcode ('[cf7form cf7key="contact-form-1"]'); ?>
               </div>
