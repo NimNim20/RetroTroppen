@@ -30,16 +30,16 @@
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Forside") ?></a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("frontpage")->ID)) ?>"><?php pll_e("Forside") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Blog") ?></a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("blog")->ID)) ?>"><?php pll_e("Blog") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Web shop") ?></a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("shop")->ID)) ?>"><?php pll_e("Web shop") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Kontakt") ?></a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("contact")->ID)) ?>"><?php pll_e("Kontakt") ?></a>
                 </li>
             </ul>
         </div>
