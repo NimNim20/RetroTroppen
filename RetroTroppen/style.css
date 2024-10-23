@@ -282,7 +282,7 @@ html {
     max-width: 100%;
     height: calc(100vh - 170px);
     display: flex;
-    background-size: cover;
+    background-size: contain;
     justify-content: center;
     background-repeat: no-repeat;
 }
