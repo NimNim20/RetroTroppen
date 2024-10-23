@@ -30,19 +30,16 @@
         <div class="container-fluid justify-content-center">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="<?php echo site_url('/') ?>">Forside</a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Forside") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('/blog')?>">Blog</a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Blog") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('/shop')?>">Web shop</a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Web shop") ?></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Butik</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?php echo site_url('/contact')?>">Kontakt</a>
+                    <a class="nav-link" href="<?php echo get_permalink(pll_get_post(get_page_by_path("front-page")->ID)) ?>"><?php pll_e("Kontakt") ?></a>
                 </li>
             </ul>
         </div>
