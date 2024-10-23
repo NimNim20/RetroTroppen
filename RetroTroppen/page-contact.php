@@ -13,7 +13,7 @@
       <!-- Hero Image Section -->
        <section class="heroImage">
         <div class="hero-img-container">
-          <img src="<?php echo $heroImage['url']; ?>" alt="Hero Image" class="hero-img">
+          <img src="<?php echo $heroImage['url']; ?>" alt="Hero Image" class="contact-img">
           <div class="hero-text-contact">
             <h1></h1>
           </div>

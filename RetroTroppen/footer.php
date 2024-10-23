@@ -1,4 +1,4 @@
-<footer class="bg-light text-center text-lg-start">
+<footer class="bg-light text-center text-lg-start" id="mainFooter">
   <div class="container p-4">
     <div class="row" id="footerRow">
       

@@ -1,6 +1,6 @@
 <?php get_header() ?>
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-12">
                 <div class="topfild_page_blog">
             
@@ -8,26 +8,26 @@
 
                 </div>
             </div>
-        </div>
+        </div> -->
 
         <div class="row">
             <div class="col-3">
                 <div class="single_side_bar">
-                    <ul>ALLE</ul>
-                    <ul>RETRO EVENTS</ul>
-                        <li>Retro foredrag</li>
-                        <li>Retro åbent hus</li>
-                        <li>Retro butik</li>
-                        <li>Møbeldesign foredrag</li>
-                    <ul>RETRO ARTIKLER</ul>
-                        <li>Møbel vedligehold</li>
-                        <li>Retro møbler</li>
-                        <li>Møbelhistorie</li>
+                    <a href=""><ul>ALLE</ul></a>
+                    <a href=""><ul>RETRO EVENTS</ul></a>
+                        <a href=""><li>Retro foredrag</li></a>
+                        <a href=""><li>Retro åbent hus</li></a>
+                        <a href=""><li>Retro butik</li></a>
+                        <a href=""><li>Møbeldesign foredrag</li></a>
+                    <a href=""><ul>RETRO ARTIKLER</ul></a>
+                        <a href=""><li>Møbel vedligehold</li></a>
+                        <a href=""><li>Retro møbler</li></a>
+                        <a href=""><li>Møbelhistorie</li></a>
 
                     <!-- nær den er dynamisk så kun en ul og il -->
                 </div>
             </div>
-            <div class="col-9">
+            <div class="col-9 okkurt">
 
                 <div class="container-fluid">
                     <div class="row">

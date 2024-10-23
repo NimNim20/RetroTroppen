@@ -24,7 +24,7 @@
             </div>
         </div>
     </nav>
-
+    
     <!-- Navbar with Links -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid justify-content-center">
@@ -42,7 +42,7 @@
                     <a class="nav-link" href="#">Butik</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontakt</a>
+                    <a class="nav-link" href="<?php echo site_url('/contact')?>">Kontakt</a>
                 </li>
             </ul>
         </div>
