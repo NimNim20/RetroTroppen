@@ -279,10 +279,13 @@ html {
 /* Hero sektion start */
 
 .hero-img {
-    max-width: 100%;
-    height: calc(100vh - 170px);
+    /* max-width: 100%; */
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+    /* height: calc(100vh - 170px); */
     display: flex;
-    background-size: contain;
+    /* background-size: contain; */
     justify-content: center;
     background-repeat: no-repeat;
 }
