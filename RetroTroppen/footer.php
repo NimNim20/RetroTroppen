@@ -5,17 +5,17 @@
       <article class="col-lg-6 col-md-12 mb-4">
         <h1 class="footer_headings">Retro Troppen</h1>
         <p class="footer_paragraph">
-          Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>
+          <?php pll_e("Vores værdier er baseret på kvalitet, design og bæredygtighed. <br>Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.</br>")?>
         </p>
       </article>
 
       <nav class="col-lg-3 col-md-6 mb-4" aria-label="Footer navigation">
-        <h2 class="footer_headings">Vores Links</h2>
+        <h2 class="footer_headings"><?php pll_e("Vores Links<")?></h2>
         <ul class="list-unstyled mb-0 footer-list">
-          <li><a href="#" class="links text-white">Hjem</a></li>
-          <li><a href="#" class="links text-white">Om os</a></li>
-          <li><a href="<?php echo site_url('/blog')?>" class="links text-white">Blog</a></li>
-          <li><a href="<?php echo site_url('/contact')?>" class="links text-white">Kontakt</a></li>
+          <li><a href="#" class="links text-white"><?php pll_e ("Hjem")?></a></li>
+          <li><a href="#" class="links text-white"><?php pll_e ("Om os")?></a></li>
+          <li><a href="<?php echo site_url('/blog')?>" class="links text-white"><?php pll_e ("Blog")?></a></li>
+          <li><a href="<?php echo site_url('/contact')?>" class="links text-white"><?php pll_e ("Kontakt")?></a></li>
         </ul>
       </nav>
 
