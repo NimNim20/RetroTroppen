@@ -3,11 +3,11 @@
     <div class="row" id="footerRow">
       
       <article class="col-lg-6 col-md-12 mb-4">
-        <h1 class="footer_headings">Retro Troppen</h1>
-        <p class="footer_paragraph">
-          <?php pll_e("Vores værdier er baseret på kvalitet, design og bæredygtighed.")?>
-          <?php pll_e ("Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.")?>
-        </p>
+        <h1 class="footer_headings">RetroTroppen</h1>
+        <div class="footer-paragraph">
+          <p><?php pll_e("Vores værdier er baseret på kvalitet, design og bæredygtighed.")?></p>
+          <p><?php pll_e ("Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.")?></p>
+        </div>
       </article>
 
       <nav class="col-lg-3 col-md-6 mb-4" aria-label="Footer navigation">
@@ -21,7 +21,7 @@
       </nav>
 
       <section class="col-lg-3 col-md-6 mb-4">
-        <h2 class="footer_headings">Følg os</h2>
+        <h2 class="footer_headings"><?php pll_e ("Følg os")?></h2>
         <ul class="list-unstyled footer-list">
           <li><a href="#" class="links text-white">Facebook</a></li>
           <li><a href="#" class="links text-white">Twitter</a></li>
