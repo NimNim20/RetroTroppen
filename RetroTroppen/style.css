@@ -280,7 +280,8 @@ html {
 
 .hero-img {
     max-width: 100%;
-    height: calc(100vh - 170px);
+    height: 100vh;
+    /* height: calc(100vh - 170px); */
     display: flex;
     background-size: contain;
     justify-content: center;
