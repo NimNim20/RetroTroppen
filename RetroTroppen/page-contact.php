@@ -5,20 +5,20 @@
 
       <?php
         $welcomeTxt = get_field("welcome");
-        $heroImage = get_field("hero_img");
+        // $heroImage = get_field("hero_img");
         // $heroTxt = get_field("hero_txt");
         $reqTxt = get_field("required_txt");
       ?>
 
       <!-- Hero Image Section -->
-       <section class="heroImage">
+       <!-- <section class="heroImage">
         <div class="hero-img-container">
-          <img src="<?php echo $heroImage['url']; ?>" alt="Hero Image" class="contact-img">
+          <img src="" alt="Hero Image" class="contact-img">
           <div class="hero-text-contact">
             <h1></h1>
           </div>
         </div>
-       </section>
+       </section> -->
 
         <!-- Contact Form Section -->
         <section class="contactForm">
