@@ -21,6 +21,10 @@ add_action("init", "retro_disable_gutenberg");
 add_filter("wpcf7_autop_or_not", "__return_false");
 
 function pll_register_strings() {
+    pll_register_string("header", "Forside");
+    pll_register_string("header", "Blog");
+    pll_register_string("header", "Web shop");
+    pll_register_string("header", "Kontakt");
     pll_register_string("index", "Følg os på Sociale media");
     pll_register_string("index", "RetroTroppen");
     pll_register_string("home", "Nyeste opslag");
