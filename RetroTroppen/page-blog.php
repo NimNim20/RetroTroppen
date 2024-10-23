@@ -23,6 +23,7 @@
                         <a href=""><li>Møbel vedligehold</li></a>
                         <a href=""><li>Retro møbler</li></a>
                         <a href=""><li>Møbelhistorie</li></a>
+                        <a href=""><li>Retro indretning</li></a>
 
                     <!-- nær den er dynamisk så kun en ul og il -->
                 </div>
