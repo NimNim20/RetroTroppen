@@ -41,7 +41,7 @@ function pll_register_strings() {
     pll_register_string("footer", "Blog");
     pll_register_string("footer", "Kontakt");
     pll_register_string("footer", "Følg os");
-    pll_register_string("footer", "Vores værdier er baseret på kvalitet, design og bæredygtighed.");
+    pll_register_string("footer", "Vores værdier er baseret på kvalitet, design og bæredygtigt retro.");
     pll_register_string("footer", "Vi er stolte af at kunne tilbyde vores kunder unikke produkter og retro møbler.");
 }
 
